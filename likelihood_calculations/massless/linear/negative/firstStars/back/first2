@@ -1,0 +1,1265 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=118081] to memory cg '(null)'
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1541387
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 16384000
+open files                      (-n) 4096
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+cp: cannot create regular file ‘FindScalarized’: Text file busy
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              barbun67
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   barbun67
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[1675212488.833520] [barbun67:118086:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+===============================================================================
+AMR driver for Solving initial data in GR, on 1 nodes
+===============================================================================
+
+echo_params = [1]
+Reading parameters from file param
+
+echo_params = [1]
+pamr_trace_lev = [0]
+dim = [3]
+max_lev = [3]
+save_iter_mod = [0]
+save_all_finer = [0]
+MG_trace = [4]
+MG_DV_trace = [0]
+regrid_trace = [0]
+MG_DV_trace_t_on = [-1.000000]
+MG_DV_trace_t_off = [1.000000]
+ID_DV_trace = [0]
+evo_DV_trace = [0]
+evo_DV_trace_t_on = [-1.000000]
+evo_DV_trace_t_off = [1.000000]
+evo_trace = [0]
+steps = [1]
+evo_max_iter = [3]
+evo_min_iter = [6]
+MG_start_iter = [1]
+MG_max_iter = [1]
+MG_min_iter = [1]
+MG_max_citer = [100]
+MG_pre_swp = [3]
+MG_pst_swp = [3]
+MG_pre_swp_1 = [3]
+MG_pst_swp_1 = [3]
+MG_pre_swp_2 = [3]
+MG_pst_swp_2 = [3]
+MG_pre_swp_3 = [3]
+MG_pst_swp_3 = [3]
+MG_pre_swp_4 = [3]
+MG_pst_swp_4 = [3]
+MG_pre_swp_5 = [3]
+MG_pst_swp_5 = [3]
+MG_pre_swp_6 = [3]
+MG_pst_swp_6 = [3]
+MG_pre_swp_7 = [3]
+MG_pst_swp_7 = [3]
+MG_pre_swp_8 = [3]
+MG_pst_swp_8 = [3]
+MG_pre_swp_9 = [3]
+MG_pst_swp_9 = [3]
+MG_pre_swp_10 = [3]
+MG_pst_swp_10 = [3]
+MG_pre_swp_11 = [3]
+MG_pst_swp_11 = [3]
+MG_pre_swp_12 = [3]
+MG_pst_swp_12 = [3]
+MG_pre_swp_13 = [3]
+MG_pst_swp_13 = [3]
+MG_pre_swp_14 = [3]
+MG_pst_swp_14 = [3]
+MG_pre_swp_15 = [3]
+MG_pst_swp_15 = [3]
+MG_pre_swp_16 = [3]
+MG_pst_swp_16 = [3]
+MG_pre_swp_17 = [3]
+MG_pst_swp_17 = [3]
+MG_pre_swp_18 = [3]
+MG_pst_swp_18 = [3]
+MG_pre_swp_19 = [3]
+MG_pst_swp_19 = [3]
+MG_pre_swp_20 = [3]
+MG_pst_swp_20 = [3]
+MG_pre_swp_21 = [3]
+MG_pst_swp_21 = [3]
+MG_pre_swp_22 = [3]
+MG_pst_swp_22 = [3]
+MG_pre_swp_23 = [3]
+MG_pst_swp_23 = [3]
+MG_pre_swp_24 = [3]
+MG_pst_swp_24 = [3]
+MG_pre_swp_25 = [3]
+MG_pst_swp_25 = [3]
+MG_pre_swp_26 = [3]
+MG_pst_swp_26 = [3]
+MG_pre_swp_27 = [3]
+MG_pst_swp_27 = [3]
+MG_pre_swp_28 = [3]
+MG_pst_swp_28 = [3]
+MG_pre_swp_29 = [3]
+MG_pst_swp_29 = [3]
+MG_pre_swp_30 = [3]
+MG_pst_swp_30 = [3]
+MG_pre_swp_31 = [3]
+MG_pst_swp_31 = [3]
+MG_pre_swp_32 = [3]
+MG_pst_swp_32 = [3]
+MG_pre_swp_33 = [3]
+MG_pst_swp_33 = [3]
+MG_pre_swp_34 = [3]
+MG_pst_swp_34 = [3]
+MG_pre_swp_35 = [3]
+MG_pst_swp_35 = [3]
+MG_pre_swp_36 = [3]
+MG_pst_swp_36 = [3]
+MG_pre_swp_37 = [3]
+MG_pst_swp_37 = [3]
+MG_pre_swp_38 = [3]
+MG_pst_swp_38 = [3]
+MG_pre_swp_39 = [3]
+MG_pst_swp_39 = [3]
+MG_pre_swp_40 = [3]
+MG_pst_swp_40 = [3]
+MG_pre_swp_41 = [3]
+MG_pst_swp_41 = [3]
+MG_pre_swp_42 = [3]
+MG_pst_swp_42 = [3]
+MG_pre_swp_43 = [3]
+MG_pst_swp_43 = [3]
+MG_pre_swp_44 = [3]
+MG_pst_swp_44 = [3]
+MG_pre_swp_45 = [3]
+MG_pst_swp_45 = [3]
+MG_pre_swp_46 = [3]
+MG_pst_swp_46 = [3]
+MG_pre_swp_47 = [3]
+MG_pst_swp_47 = [3]
+MG_pre_swp_48 = [3]
+MG_pst_swp_48 = [3]
+MG_pre_swp_49 = [3]
+MG_pst_swp_49 = [3]
+MG_pre_swp_50 = [3]
+MG_pst_swp_50 = [3]
+do_ex = [0]
+ex = [1.000000]
+evo_tol = [0.000010]
+MG_tol = [0.000000]
+MG_crtol = [0.000100]
+MG_w0 = [1.000000]
+MG_w0 = [1.000000]
+MG_w0_r = [1.000000]
+MG_w0_i = [1.000000]
+evo_ssc = [0]
+MG_extrap_method = [0]
+MG_eps_c = [1.000000]
+MG_reinterp_bdy = [1]
+TRE_max = [0.000010]
+TRE_norm = [0]
+TRE_buffer = [2]
+TRE_ibc_buffer = [2]
+TRE_ibc_a_buffer = [0]
+TRE_exc_buffer = [2]
+TRE_exc_buffer_lmin = [6]
+TRE_sgpbh = [1]
+TRE_ibcp_buffer = [0]
+regrid_interval = [100000000]
+regrid_min_lev = [2]
+cls_method = [0]
+cls_merge_dist = [8]
+cls_align_mode = [1]
+calc_global_var_norms = [1]
+global_var_norm_type = [1]
+global_var_norm_floor = [1.000000]
+magic_cookie = [0]
+id_method = [0]
+id_user_mg_pl = [0]
+id_pl_method = [3]
+id_pl_steps = [1]
+id_pl_lambda = [0.100000]
+t_interp_substeps not found in parameter file param)
+hyperbolic_vars = 
+[ "gamma_xx" 
+  "gamma_xy" 
+  "gamma_xz" 
+  "gamma_yy" 
+  "gamma_yz" 
+  "gamma_zz" ] (6 elements in list)
+elliptic_vars not found in parameter file param)
+elliptic_vars_t0 = 
+[ "psi" 
+  "betax" 
+  "betay" 
+  "betaz" ] (4 elements in list)
+AMRH_work_vars = 
+[ "source" 
+  "ricci" 
+  "gammainvdot_xx" 
+  "gammainvdot_xy" 
+  "gammainvdot_xz" 
+  "gammainvdot_yy" 
+  "gammainvdot_yz" 
+  "gammainvdot_zz" 
+  "px" 
+  "py" 
+  "pz" 
+  "alpha" 
+  "E" 
+  "K" 
+  "DKx" 
+  "DKy" 
+  "DKz" 
+  "phist" 
+  "phistdot" 
+  "vectorvtt" 
+  "vectorvtx" 
+  "vectorvty" 
+  "vectorvtz" 
+  "vectorvtdott" 
+  "vectorvtdotx" 
+  "vectorvtdoty" 
+  "vectorvtdotz" 
+  "g_tt" 
+  "g_tx" 
+  "g_ty" 
+  "g_tz" 
+  "g_xx" 
+  "g_xy" 
+  "g_xz" 
+  "g_yy" 
+  "g_yz" 
+  "g_zz" 
+  "gdot_xx" 
+  "gdot_xy" 
+  "gdot_xz" 
+  "gdot_yy" 
+  "gdot_yz" 
+  "gdot_zz" 
+  "rho" 
+  "epsilon" 
+  "vx" 
+  "vy" 
+  "vz" 
+  "indie_res" 
+  "Ex" 
+  "Ey" 
+  "Ez" 
+  "Bx" 
+  "By" 
+  "Bz" ] (55 elements in list)
+AMRH_work_in_MGH_vars = 
+[ "source" 
+  "ricci" 
+  "gammainvdot_xx" 
+  "gammainvdot_xy" 
+  "gammainvdot_xz" 
+  "gammainvdot_yy" 
+  "gammainvdot_yz" 
+  "gammainvdot_zz" 
+  "px" 
+  "py" 
+  "pz" 
+  "alpha" 
+  "E" 
+  "K" 
+  "DKx" 
+  "DKy" 
+  "DKz" 
+  "phist" 
+  "phistdot" 
+  "vectorvtt" 
+  "vectorvtx" 
+  "vectorvty" 
+  "vectorvtz" 
+  "vectorvtdott" 
+  "vectorvtdotx" 
+  "vectorvtdoty" 
+  "vectorvtdotz" 
+  "g_tt" 
+  "g_tx" 
+  "g_ty" 
+  "g_tz" 
+  "g_xx" 
+  "g_xy" 
+  "g_xz" 
+  "g_yy" 
+  "g_yz" 
+  "g_zz" 
+  "gdot_xx" 
+  "gdot_xy" 
+  "gdot_xz" 
+  "gdot_yy" 
+  "gdot_yz" 
+  "gdot_zz" 
+  "rho" 
+  "epsilon" 
+  "vx" 
+  "vy" 
+  "vz" 
+  "indie_res" 
+  "Ex" 
+  "Ey" 
+  "Ez" 
+  "Bx" 
+  "By" 
+  "Bz" ] (55 elements in list)
+fc_vars not found in parameter file param)
+past_bdy_interp_vars not found in parameter file param)
+work_repop_vars not found in parameter file param)
+AMRH_work_inject_vars not found in parameter file param)
+MGH_work_vars not found in parameter file param)
+MG_cnst_data_vars = 
+[ "g_tt" 
+  "g_tx" 
+  "g_ty" 
+  "g_tz" 
+  "g_xx" 
+  "g_xy" 
+  "g_xz" 
+  "g_yy" 
+  "g_yz" 
+  "g_zz" 
+  "gdot_xx" 
+  "gdot_xy" 
+  "gdot_xz" 
+  "gdot_yy" 
+  "gdot_yz" 
+  "gdot_zz" 
+  "rho" 
+  "epsilon" 
+  "vx" 
+  "vy" 
+  "vz" 
+  "indie_res" ] (22 elements in list)
+free_data_vars = 
+[ "K" 
+  "DKx" 
+  "DKy" 
+  "DKz" 
+  "E" 
+  "px" 
+  "py" 
+  "pz" ] (8 elements in list)
+ex_repop1_vars not found in parameter file param)
+ex_repop2_vars not found in parameter file param)
+ex_repop3_vars not found in parameter file param)
+ex_repop4_vars not found in parameter file param)
+tnp1_diss_vars not found in parameter file param)
+diss_freq = [1]
+diss_all_past = [0]
+tn_diss_vars not found in parameter file param)
+unused_vars not found in parameter file param)
+eps_diss = [0.000000]
+tn_eps_diss = [0.350000]
+tnp1_eps_diss = [0.000000]
+diss_bdy = [1]
+repop_diss_bdy = [1]
+diss_use_6th_order = [0]
+diss_stride = [1]
+tnp1_liipb_vars not found in parameter file param)
+tnp1_liiab_vars not found in parameter file param)
+tnp1_liibb_vars not found in parameter file param)
+rg_diss_vars not found in parameter file param)
+rg_eps_diss = [0.000000]
+interp_AMR_bdy_vars not found in parameter file param)
+interp_AMR_bdy_order = [4]
+max_t_interp_order = [3]
+MG_always_sync_bdy = [0]
+re_interp_width = [0]
+re_interp_width_c = [0]
+v_to_c_in_tstep = [0]
+c_to_v_in_tstep = [0]
+TRE_vars = [ "gamma_xx" ]
+regrid_script = [0]
+c_tag = [ "(null)" ]
+v_tag = [ "(null)" ]
+AMR_bdy_width = [1]
+AMR_bdy_width_c = [1]
+resid_in_evo = [1]
+save_tag = [ "something" ]
+save_ivec = [ <ivec> ]
+save_ivec_1 = [ <ivec> ]
+save_ivec_2 = [ <ivec> ]
+save_ivec_3 = [ <ivec> ]
+save_mg_vars not found in parameter file param)
+save_1_vars = [ "" ]
+save_2_vars not found in parameter file param)
+save_3_vars not found in parameter file param)
+save_4_vars not found in parameter file param)
+save_5_vars not found in parameter file param)
+amr_inject not found in parameter file param)
+amr_hw_inject not found in parameter file param)
+amr_inject_wavg not found in parameter file param)
+amr_interp1 not found in parameter file param)
+amr_interp2 not found in parameter file param)
+amr_interp4 not found in parameter file param)
+amr_sync not found in parameter file param)
+amr_transfer1 not found in parameter file param)
+amr_transfer2 not found in parameter file param)
+amr_transfer4 not found in parameter file param)
+amr_c_to_v2 not found in parameter file param)
+amr_v_to_c2 not found in parameter file param)
+amr_bdy_interp1 not found in parameter file param)
+amr_bdy_interp2 not found in parameter file param)
+mg_interp2 = 
+[ "psi" 
+  "betax" 
+  "betay" 
+  "betaz" ] (4 elements in list)
+mg_hw_restr not found in parameter file param)
+mg_fw_restr not found in parameter file param)
+mg_hw_restr_bdy_si not found in parameter file param)
+mg_hw_restr_extrap = 
+[ "psi" 
+  "betax" 
+  "betay" 
+  "betaz" 
+  "source" 
+  "gamma_xx" 
+  "gamma_xy" 
+  "gamma_xz" 
+  "gamma_yy" 
+  "gamma_yz" 
+  "gamma_zz" 
+  "gammainvdot_xx" 
+  "gammainvdot_xy" 
+  "gammainvdot_xz" 
+  "gammainvdot_yy" 
+  "gammainvdot_yz" 
+  "gammainvdot_zz" 
+  "px" 
+  "py" 
+  "pz" 
+  "alpha" 
+  "E" 
+  "K" 
+  "DKx" 
+  "DKy" 
+  "DKz" 
+  "phist" 
+  "phistdot" 
+  "vectorvtt" 
+  "vectorvtx" 
+  "vectorvty" 
+  "vectorvtz" 
+  "vectorvtdott" 
+  "vectorvtdotx" 
+  "vectorvtdoty" 
+  "vectorvtdotz" 
+  "Ex" 
+  "Ey" 
+  "Ez" 
+  "Bx" 
+  "By" 
+  "Bz" ] (42 elements in list)
+mg_sync = 
+[ "psi" 
+  "betax" 
+  "betay" 
+  "betaz" ] (4 elements in list)
+MG_no_cgc not found in parameter file param)
+base_shape = [9,9,9]
+base_bbox = [-16.000000,16.000000,-16.000000,16.000000,-16.000000,16.000000]
+cp_delta_t_hrs = [0.000000]
+cp_restart = [0]
+cp_first_delta_t_hrs = [0.000000]
+np1_initial_guess = [1]
+num_evo_tl = [2]
+periodic = [0,0,0]
+t0 = [0.000000]
+ic_n = [2]
+skip_frg = [1]
+init_depth = [3]
+rho_sp = [2]
+rho_tm = [2]
+rho_sp_all = [2,2,2]
+rho_tm_all = [2,2,2]
+lambda = [0.200000]
+ghost_width = [3,3,3]
+gdm_grid_by_grid = [0]
+gdm_align = [0]
+gdm_no_overlap = [1]
+min_width = [9,9,9]
+min_mg_cwidth = [5,5,5]
+even_vars_x0min not found in parameter file param)
+even_vars_x1min not found in parameter file param)
+even_vars_x2min not found in parameter file param)
+even_vars_x0max not found in parameter file param)
+even_vars_x1max not found in parameter file param)
+even_vars_x2max not found in parameter file param)
+odd_vars_x0min not found in parameter file param)
+odd_vars_x1min not found in parameter file param)
+odd_vars_x2min not found in parameter file param)
+odd_vars_x0max not found in parameter file param)
+odd_vars_x1max not found in parameter file param)
+odd_vars_x2max not found in parameter file param)
+
+Defining hyperbolic variables:
+==============================
+gamma_xx: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gamma_xx_tre:
+
+gamma_xy: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gamma_xz: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gamma_yy: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gamma_yz: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gamma_zz: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+
+Defining elliptic variables:
+===========================
+
+Defining AMR work variables (55):
+================================
+source: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+ricci: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_xx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_xy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_xz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_yy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_yz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_zz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+px: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+py: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+pz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+alpha: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+E: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+K: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+DKx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+DKy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+DKz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+phist: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+phistdot: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtt: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvty: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtdott: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtdotx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtdoty: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtdotz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_tt: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_tx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_ty: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_tz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_xx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_xy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_xz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_yy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_yz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_zz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_xx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_xy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_xz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_yy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_yz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_zz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+rho: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+epsilon: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+indie_res: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+Ex: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+Ey: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+Ez: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+Bx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+By: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+Bz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+
+Defining MG work variables (0):
+===============================
+
+Defining elliptic_t0 variables:
+===============================
+psi: in_amrh=0, in_mgh=1, num_tl=0, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=1, mg_noinj_to_amr=0, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+psi_res: mg_inject=2, mg_interp=2
+
+psi_lop:
+
+psi_rhs:
+
+betax: in_amrh=0, in_mgh=1, num_tl=0, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=1, mg_noinj_to_amr=0, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+betax_res: mg_inject=2, mg_interp=2
+
+betax_lop:
+
+betax_rhs:
+
+betay: in_amrh=0, in_mgh=1, num_tl=0, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=1, mg_noinj_to_amr=0, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+betay_res: mg_inject=2, mg_interp=2
+
+betay_lop:
+
+betay_rhs:
+
+betaz: in_amrh=0, in_mgh=1, num_tl=0, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=1, mg_noinj_to_amr=0, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+betaz_res: mg_inject=2, mg_interp=2
+
+betaz_lop:
+
+betaz_rhs:
+
+
+Defining misc. variables:
+=========================
+cmask:
+
+__cmask_c:
+
+AMRD_tre:
+
+__AMRD_tre_c:
+
+amrd_w1:
+
+__AMRD_w1_c:
+
+
+AMR on: initializing base level plus shadow, up to level 3
+
+init_bbox_3 = [-8.000000,8.000000,-8.000000,8.000000,-8.000000,8.000000]
+init_bbox_b_3 = [-1000000.000000,0.000000,0.000000,0.000000,0.000000,0.000000]
+
+sgh_cull_overlap() not yet implemented 
+[NOTE : At present some operations (e.g. boundary interpolation) will not work correctly with (non-parallel) overlapping grids
+
+init_context() complete
+
+===============================================================================
+===================================================================
+Reading IDsolve parameters:
+
+flat_space_id = [0]
+black_hole_id = [0]
+brill_wave_id = [0]
+quad_gw_id = [0]
+star_id = [1]
+conf_flat = [0]
+omega_scale = [0]
+bh_a_mass = [0.000000]
+bh_a_spin = [0.000000]
+bh_a_reg_frac = [0.600000]
+bh_a_charge = [0.000000]
+bh_b_mass = [0.000000]
+bh_b_spin = [0.000000]
+bh_b_reg_frac = [0.600000]
+bh_b_charge = [0.000000]
+bw_amp = [0.000000]
+bw_sigma_r = [1.000000]
+bw_sigma_x = [1.000000]
+bw_R0 = [0.000000]
+bw_dR = [0.000000]
+bw_eps_x = [0.000000]
+rho_central_a = [18.668200]
+rho_central_b = [18.668200]
+dr_tov = [0.000025]
+atm_pressure = [0.000000]
+rotating_star_a_filename = [ "(null)" ]
+rotating_star_b_filename = [ "(null)" ]
+rotating_star_length_scale = [1.000000]
+phist_inf = [0.000000]
+w_att_a = [0.000000]
+w_att_b = [0.000000]
+bh_a_xc = [0.000000,0.000000,0.000000]
+bh_b_xc = [0.000000,0.000000,0.000000]
+bh_a_v = [0.000000,0.000000,0.000000]
+bh_b_v = [0.000000,0.000000,0.000000]
+bh_a_rot_angles = [0.000000,0.000000,0.000000]
+bh_b_rot_angles = [0.000000,0.000000,0.000000]
+star_a_xc = [0.000000,0.000000,0.000000]
+star_b_xc = [0.000000,0.000000,0.000000]
+star_a_v = [0.000000,0.000000,0.000000]
+star_b_v = [0.000000,0.000000,0.000000]
+star_a_rot_angles = [0.000000,0.000000,0.000000]
+star_b_rot_angles = [0.000000,0.000000,0.000000]
+eos_type = [4]
+Gamma_eos = [2.000000]
+K_poly = [1.000000]
+pp_mass_conv = [0.011852]
+theory_type = [1]
+st_on = [1]
+beta_st = [1.000000]
+mass_st = [0.100000]
+phist_guess = [0.005647]
+vt_on = [0]
+beta_vt = [2.250000]
+mass_vt = [0.000000]
+farcoeff_vt = [2.000000]
+ghiggs_on = [0]
+beta_ghiggs = [2.250000]
+mass_ghiggs = [0.000000]
+charge_ghiggs = [0.010000]
+variousMphi_on = [0]
+tovRelaxation_on = [1]
+star_radius = [0.084500]
+radius_begin = [0.170000]
+radius_end = [1.200000]
+nrelax_tov = [1025]
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 1.000000e+00 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 3.960000e-01 isScalarized= 0
+rho= 5.920000e-01 isScalarized= 0
+rho= 7.880000e-01 isScalarized= 0
+rho= 9.840000e-01 isScalarized= 0
+rho= 1.180000e+00 isScalarized= 0
+rho= 1.376000e+00 isScalarized= 0
+rho= 1.572000e+00 isScalarized= 0
+rho= 1.768000e+00 isScalarized= 0
+rho= 1.964000e+00 isScalarized= 0
+rho= 2.160000e+00 isScalarized= 0
+rho= 2.356000e+00 isScalarized= 0
+rho= 2.552000e+00 isScalarized= 0
+rho= 2.748000e+00 isScalarized= 0
+rho= 2.944000e+00 isScalarized= 0
+rho= 3.140000e+00 isScalarized= 0
+rho= 3.336000e+00 isScalarized= 0
+rho= 3.532000e+00 isScalarized= 0
+rho= 3.728000e+00 isScalarized= 0
+rho= 3.924000e+00 isScalarized= 0
+rho= 4.120000e+00 isScalarized= 0
+rho= 4.316000e+00 isScalarized= 0
+rho= 4.512000e+00 isScalarized= 0
+rho= 4.708000e+00 isScalarized= 0
+rho= 4.904000e+00 isScalarized= 0
+rho= 5.100000e+00 isScalarized= 0
+rho= 5.296000e+00 isScalarized= 0
+rho= 5.492000e+00 isScalarized= 0
+rho= 5.688000e+00 isScalarized= 0
+rho= 5.884000e+00 isScalarized= 0
+rho= 6.080000e+00 isScalarized= 0
+rho= 6.276000e+00 isScalarized= 0
+rho= 6.472000e+00 isScalarized= 0
+rho= 6.668000e+00 isScalarized= 0
+rho= 6.864000e+00 isScalarized= 0
+rho= 7.060000e+00 isScalarized= 0
+rho= 7.256000e+00 isScalarized= 0
+rho= 7.452000e+00 isScalarized= 0
+rho= 7.648000e+00 isScalarized= 0
+rho= 7.844000e+00 isScalarized= 0
+rho= 8.040000e+00 isScalarized= 0
+rho= 8.236000e+00 isScalarized= 0
+rho= 8.432000e+00 isScalarized= 0
+rho= 8.628000e+00 isScalarized= 0
+rho= 8.824000e+00 isScalarized= 0
+rho= 9.020000e+00 isScalarized= 0
+rho= 9.216000e+00 isScalarized= 0
+rho= 9.412000e+00 isScalarized= 0
+rho= 9.608000e+00 isScalarized= 0
+rho= 9.804000e+00 isScalarized= 0
+rho= 1.000000e+01 isScalarized= 0
+Enlarging the rhointerval to (1.500000e-01, 1.500000e+01)
+Too wide range of rhoc. No scalarized star was found.
+findScalarizationShooting failed when finding rhoBegin.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 6.000000e+00 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 4.960000e-01 isScalarized= 0
+rho= 7.920000e-01 isScalarized= 0
+rho= 1.088000e+00 isScalarized= 0
+rho= 1.384000e+00 isScalarized= 0
+rho= 1.680000e+00 isScalarized= 0
+rho= 1.976000e+00 isScalarized= 0
+rho= 2.272000e+00 isScalarized= 0
+rho= 2.568000e+00 isScalarized= 0
+rho= 2.864000e+00 isScalarized= 0
+rho= 3.160000e+00 isScalarized= 0
+rho= 3.456000e+00 isScalarized= 0
+rho= 3.752000e+00 isScalarized= 0
+rho= 4.048000e+00 isScalarized= 0
+rho= 4.344000e+00 isScalarized= 0
+rho= 4.640000e+00 isScalarized= 0
+rho= 4.936000e+00 isScalarized= 0
+rho= 5.232000e+00 isScalarized= 0
+rho= 5.528000e+00 isScalarized= 1
+rhoBegin= 5.232000e+00 phiCentral= 3.214422e-02
+rho= 5.237920e+00 isScalarized= 0
+rho= 5.243840e+00 isScalarized= 0
+rho= 5.249760e+00 isScalarized= 0
+rho= 5.255680e+00 isScalarized= 0
+rho= 5.261600e+00 isScalarized= 0
+rho= 5.267520e+00 isScalarized= 0
+rho= 5.273440e+00 isScalarized= 0
+rho= 5.279360e+00 isScalarized= 1
+rhoBegin= 5.273440e+00 phiCentral= 3.192628e-03
+rho= 5.273558e+00 isScalarized= 0
+rho= 5.273677e+00 isScalarized= 0
+rho= 5.273795e+00 isScalarized= 0
+rho= 5.273914e+00 isScalarized= 0
+rho= 5.274032e+00 isScalarized= 0
+rho= 5.274150e+00 isScalarized= 0
+rho= 5.274269e+00 isScalarized= 0
+rho= 5.274387e+00 isScalarized= 0
+rho= 5.274506e+00 isScalarized= 0
+rho= 5.274624e+00 isScalarized= 0
+rho= 5.274742e+00 isScalarized= 0
+rho= 5.274861e+00 isScalarized= 0
+rho= 5.274979e+00 isScalarized= 0
+rho= 5.275098e+00 isScalarized= 0
+rho= 5.275216e+00 isScalarized= 0
+rho= 5.275334e+00 isScalarized= 0
+rho= 5.275453e+00 isScalarized= 0
+rho= 5.275571e+00 isScalarized= 0
+rho= 5.275690e+00 isScalarized= 0
+rho= 5.275808e+00 isScalarized= 0
+rho= 5.275926e+00 isScalarized= 0
+rho= 5.276045e+00 isScalarized= 0
+rho= 5.276163e+00 isScalarized= 0
+rho= 5.276282e+00 isScalarized= 0
+rho= 5.276400e+00 isScalarized= 0
+rho= 5.276518e+00 isScalarized= 0
+rho= 5.276637e+00 isScalarized= 0
+rho= 5.276755e+00 isScalarized= 0
+rho= 5.276874e+00 isScalarized= 1
+rhoBegin= 5.276755e+00 phiCentral= 4.585352e-04
+rho= 5.276758e+00 isScalarized= 0
+rho= 5.276760e+00 isScalarized= 0
+rho= 5.276762e+00 isScalarized= 0
+rho= 5.276765e+00 isScalarized= 0
+rho= 5.276767e+00 isScalarized= 0
+rho= 5.276769e+00 isScalarized= 0
+rho= 5.276772e+00 isScalarized= 0
+rho= 5.276774e+00 isScalarized= 0
+rho= 5.276777e+00 isScalarized= 0
+rho= 5.276779e+00 isScalarized= 0
+rho= 5.276781e+00 isScalarized= 0
+rho= 5.276784e+00 isScalarized= 0
+rho= 5.276786e+00 isScalarized= 0
+rho= 5.276788e+00 isScalarized= 0
+rho= 5.276791e+00 isScalarized= 0
+rho= 5.276793e+00 isScalarized= 0
+rho= 5.276795e+00 isScalarized= 0
+rho= 5.276798e+00 isScalarized= 0
+rho= 5.276800e+00 isScalarized= 0
+rho= 5.276803e+00 isScalarized= 0
+rho= 5.276805e+00 isScalarized= 0
+rho= 5.276807e+00 isScalarized= 0
+rho= 5.276810e+00 isScalarized= 0
+rho= 5.276812e+00 isScalarized= 0
+rho= 5.276814e+00 isScalarized= 0
+rho= 5.276817e+00 isScalarized= 0
+rho= 5.276819e+00 isScalarized= 0
+rho= 5.276822e+00 isScalarized= 1
+rhoBegin= 5.276819e+00 phiCentral= 3.387247e-05
+rho= 5.276819e+00 isScalarized= 0
+rho= 5.276819e+00 isScalarized= 0
+rho= 5.276819e+00 isScalarized= 0
+rho= 5.276819e+00 isScalarized= 0
+rho= 5.276819e+00 isScalarized= 0
+rho= 5.276819e+00 isScalarized= 0
+rho= 5.276819e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276820e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 0
+rho= 5.276821e+00 isScalarized= 1
+rhoBegin= 5.276821e+00 phiCentral= 2.600965e-06
+Star #0: 
+1 0 1 1 3.093523e-13 1.235948e-08 3.999987e+00 8.516865e-02 4.886569e-03 4.670053e-03 2.600959e-06 5.276821e+00 7
+Appending parameters to firstStarsParam_eos_4_beta_0006p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.866684e-09 6.735662e-05 3.999987e+00 8.483523e-02 4.884279e-03 4.667326e-03 1.420161e-02 5.326821e+00 19
+Appending parameters to firstStarsParam_eos_4_beta_0006p000 ...
+Done!
+Star #2: 
+1 0 1 1 2.398955e-09 9.531359e-05 3.999987e+00 8.450767e-02 4.882355e-03 4.664915e-03 2.013349e-02 5.376821e+00 6
+Appending parameters to firstStarsParam_eos_4_beta_0006p000 ...
+Done!
+Star #3: 
+1 0 1 1 3.001185e-09 1.168112e-04 3.999987e+00 8.418272e-02 4.880752e-03 4.662815e-03 2.471870e-02 5.426821e+00 6
+Appending parameters to firstStarsParam_eos_4_beta_0006p000 ...
+Done!
+Star #4: 
+1 0 1 1 3.014353e-09 1.349746e-04 3.999987e+00 8.387184e-02 4.879508e-03 4.661027e-03 2.861218e-02 5.476821e+00 6
+Appending parameters to firstStarsParam_eos_4_beta_0006p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 1.100000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 3.960000e-01 isScalarized= 0
+rho= 5.920000e-01 isScalarized= 0
+rho= 7.880000e-01 isScalarized= 0
+rho= 9.840000e-01 isScalarized= 0
+rho= 1.180000e+00 isScalarized= 0
+rho= 1.376000e+00 isScalarized= 0
+rho= 1.572000e+00 isScalarized= 0
+rho= 1.768000e+00 isScalarized= 0
+rho= 1.964000e+00 isScalarized= 0
+rho= 2.160000e+00 isScalarized= 0
+rho= 2.356000e+00 isScalarized= 0
+rho= 2.552000e+00 isScalarized= 0
+rho= 2.748000e+00 isScalarized= 0
+rho= 2.944000e+00 isScalarized= 0
+rho= 3.140000e+00 isScalarized= 0
+rho= 3.336000e+00 isScalarized= 0
+rho= 3.532000e+00 isScalarized= 0
+rho= 3.728000e+00 isScalarized= 1
+rhoBegin= 3.532000e+00 phiCentral= 6.944181e-03
+rho= 3.535920e+00 isScalarized= 0
+rho= 3.539840e+00 isScalarized= 0
+rho= 3.543760e+00 isScalarized= 0
+rho= 3.547680e+00 isScalarized= 0
+rho= 3.551600e+00 isScalarized= 0
+rho= 3.555520e+00 isScalarized= 0
+rho= 3.559440e+00 isScalarized= 0
+rho= 3.563360e+00 isScalarized= 0
+rho= 3.567280e+00 isScalarized= 0
+rho= 3.571200e+00 isScalarized= 0
+rho= 3.575120e+00 isScalarized= 0
+rho= 3.579040e+00 isScalarized= 0
+rho= 3.582960e+00 isScalarized= 0
+rho= 3.586880e+00 isScalarized= 0
+rho= 3.590800e+00 isScalarized= 0
+rho= 3.594720e+00 isScalarized= 0
+rho= 3.598640e+00 isScalarized= 0
+rho= 3.602560e+00 isScalarized= 0
+rho= 3.606480e+00 isScalarized= 0
+rho= 3.610400e+00 isScalarized= 0
+rho= 3.614320e+00 isScalarized= 0
+rho= 3.618240e+00 isScalarized= 0
+rho= 3.622160e+00 isScalarized= 0
+rho= 3.626080e+00 isScalarized= 0
+rho= 3.630000e+00 isScalarized= 0
+rho= 3.633920e+00 isScalarized= 0
+rho= 3.637840e+00 isScalarized= 0
+rho= 3.641760e+00 isScalarized= 0
+rho= 3.645680e+00 isScalarized= 0
+rho= 3.649600e+00 isScalarized= 0
+rho= 3.653520e+00 isScalarized= 0
+rho= 3.657440e+00 isScalarized= 0
+rho= 3.661360e+00 isScalarized= 0
+rho= 3.665280e+00 isScalarized= 0
+rho= 3.669200e+00 isScalarized= 0
+rho= 3.673120e+00 isScalarized= 0
+rho= 3.677040e+00 isScalarized= 0
+rho= 3.680960e+00 isScalarized= 0
+rho= 3.684880e+00 isScalarized= 0
+rho= 3.688800e+00 isScalarized= 0
+rho= 3.692720e+00 isScalarized= 0
+rho= 3.696640e+00 isScalarized= 0
+rho= 3.700560e+00 isScalarized= 1
+rhoBegin= 3.696640e+00 phiCentral= 1.640520e-03
+rho= 3.696718e+00 isScalarized= 0
+rho= 3.696797e+00 isScalarized= 0
+rho= 3.696875e+00 isScalarized= 0
+slurmstepd: error: *** JOB 587808 ON barbun67 CANCELLED AT 2023-02-01T05:08:33 ***

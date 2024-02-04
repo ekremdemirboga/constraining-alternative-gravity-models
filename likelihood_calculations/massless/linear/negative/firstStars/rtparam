@@ -1,0 +1,148 @@
+#------ Initial Data -------------------------------------------------------
+star_id := 1
+eos_type:= 5
+theory_type= 1
+st_on:= 1
+vt_on:= 0
+ghiggs_on:= 0
+
+rho_central_a := 1.866820e+01
+phist_guess := 5.647453e-03
+star_radius := 8.450000e-02
+nrelax_tov := 1025
+pp_mass_conv := 0.01185185
+dr_tov := 2.5e-5
+
+radius_begin := 0.17
+radius_end := 1.2
+
+#beta_begin := 10
+#beta_end := 100
+
+beta_st := 1
+mass_st := 0.1
+tovRelaxation_on := 1
+tabulation_on := 1
+
+output_dir := "./"
+#------ trace parameters (most off) ----------------------------------------
+
+echo_params := 1
+pamr_trace_lev := 0
+MG_trace := 4
+MG_DV_trace := 0 
+MG_DV_trace_t_on := -1
+MG_DV_trace_t_off := 1
+evo_trace := 0
+evo_DV_trace := 0
+evo_DV_trace_t_on := -1
+evo_DV_trace_t_off := 1
+ID_DV_trace := 0
+
+#------ grid/parallel/AMR parameters ---------------------------------------
+#max_lev := 2 
+lambda := 0.2
+rho_sp := 2
+rho_tm := 2
+
+#TEST#
+min_width := [9 9 9]
+min_mg_cwidth := [5 5 5]
+gdm_no_overlap := 1
+ghost_width := [3 3 3]
+TRE_max := 1.0e-5
+num_TRE_vars := 1
+TRE_vars := [ "gamma_xx" ]
+TRE_buffer := 2
+TRE_ibc_buffer := 2
+TRE_exc_buffer := 2
+TRE_exc_buffer_lmin := 6
+TRE_ibcp_buffer := 0
+TRE_sgpbh := 1
+regrid_interval := 100000000 
+regrid_min_lev := 2
+TRE_norm := 0
+regrid_script := 0
+regrid_script_name = "IDSolve.rgs"
+
+cls_merge_dist := 8
+cls_method := 0
+cls_align_mode := 1
+
+#------ dissipation --------------------------------------------------------
+
+tn_eps_diss := 0.35
+diss_bdy := 1
+repop_diss_bdy := 1
+diss_all_past := 0
+
+diss_kmax := 0 
+diss_eps_k_cutoff_n := 2
+diss_eps_k := 0.1
+diss_bdy_k := 1
+diss_all_past_k := 0
+diss_eps_y_cutoff := 1
+diss_all := 1
+
+#------- check-pointing (off) ---------------------------------------------
+
+cp_restart := 0
+cp_delta_t_hrs := 0 
+cp_save_fname := "cp_L0"
+cp_restore_fname := "cp_L0_A"
+
+#------- solution related -------------------------------------------------
+#base_shape := [129 129 129]
+#base_shape := [65 65 65]
+base_shape := [9 9 9]
+max_lev := 3
+base_bbox := [-16.0 16.0 -16.0 16.0 -16.0 16.0]
+init_depth := 3 
+init_bbox_3 := [-8.0 8.0 -8.0 8.0 -8.0 8.0]
+
+
+steps := 1 
+evo_max_iter := 3
+evo_min_iter := 6
+evo_tol := 1.0e-5
+
+MG_max_iter := 1 
+#MG_max_iter := 1 
+MG_min_iter := 1
+#MG_max_citer := 1000
+MG_max_citer := 100
+MG_pre_swp := 3 
+MG_pst_swp := 3
+MG_w0 := 1.0
+MG_tol := 1.0e-12
+MG_crtol := 1.0e-4
+MG_extrap_method := 0
+MG_eps_c := 1.0
+
+skip_frg := 1
+evo_ssc := 0
+
+id_method := 0
+id_pl_method := 3
+
+np1_initial_guess := 1
+io_node := 0
+
+max_t_interp_order := 3
+
+which_gb_ii_res := 1
+
+diagnostic_level := 12
+#------- IO ---------------------------------------------------------------
+
+save_1_vars := [""]
+
+calc_global_var_norms := 1
+global_var_norm_floor := 1
+
+save_tag := "something"
+
+save_ivec := 1-1/1
+
+#-----------------------------------------------------
+

@@ -1,0 +1,3069 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=120417] to memory cg '(null)'
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1541387
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 16384000
+open files                      (-n) 4096
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+cp: cannot create regular file ‘FindScalarized’: Text file busy
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              barbun67
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   barbun67
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[1675217703.156103] [barbun67:120422:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+===============================================================================
+AMR driver for Solving initial data in GR, on 1 nodes
+===============================================================================
+
+echo_params = [1]
+Reading parameters from file param
+
+echo_params = [1]
+pamr_trace_lev = [0]
+dim = [3]
+max_lev = [3]
+save_iter_mod = [0]
+save_all_finer = [0]
+MG_trace = [4]
+MG_DV_trace = [0]
+regrid_trace = [0]
+MG_DV_trace_t_on = [-1.000000]
+MG_DV_trace_t_off = [1.000000]
+ID_DV_trace = [0]
+evo_DV_trace = [0]
+evo_DV_trace_t_on = [-1.000000]
+evo_DV_trace_t_off = [1.000000]
+evo_trace = [0]
+steps = [1]
+evo_max_iter = [3]
+evo_min_iter = [6]
+MG_start_iter = [1]
+MG_max_iter = [1]
+MG_min_iter = [1]
+MG_max_citer = [100]
+MG_pre_swp = [3]
+MG_pst_swp = [3]
+MG_pre_swp_1 = [3]
+MG_pst_swp_1 = [3]
+MG_pre_swp_2 = [3]
+MG_pst_swp_2 = [3]
+MG_pre_swp_3 = [3]
+MG_pst_swp_3 = [3]
+MG_pre_swp_4 = [3]
+MG_pst_swp_4 = [3]
+MG_pre_swp_5 = [3]
+MG_pst_swp_5 = [3]
+MG_pre_swp_6 = [3]
+MG_pst_swp_6 = [3]
+MG_pre_swp_7 = [3]
+MG_pst_swp_7 = [3]
+MG_pre_swp_8 = [3]
+MG_pst_swp_8 = [3]
+MG_pre_swp_9 = [3]
+MG_pst_swp_9 = [3]
+MG_pre_swp_10 = [3]
+MG_pst_swp_10 = [3]
+MG_pre_swp_11 = [3]
+MG_pst_swp_11 = [3]
+MG_pre_swp_12 = [3]
+MG_pst_swp_12 = [3]
+MG_pre_swp_13 = [3]
+MG_pst_swp_13 = [3]
+MG_pre_swp_14 = [3]
+MG_pst_swp_14 = [3]
+MG_pre_swp_15 = [3]
+MG_pst_swp_15 = [3]
+MG_pre_swp_16 = [3]
+MG_pst_swp_16 = [3]
+MG_pre_swp_17 = [3]
+MG_pst_swp_17 = [3]
+MG_pre_swp_18 = [3]
+MG_pst_swp_18 = [3]
+MG_pre_swp_19 = [3]
+MG_pst_swp_19 = [3]
+MG_pre_swp_20 = [3]
+MG_pst_swp_20 = [3]
+MG_pre_swp_21 = [3]
+MG_pst_swp_21 = [3]
+MG_pre_swp_22 = [3]
+MG_pst_swp_22 = [3]
+MG_pre_swp_23 = [3]
+MG_pst_swp_23 = [3]
+MG_pre_swp_24 = [3]
+MG_pst_swp_24 = [3]
+MG_pre_swp_25 = [3]
+MG_pst_swp_25 = [3]
+MG_pre_swp_26 = [3]
+MG_pst_swp_26 = [3]
+MG_pre_swp_27 = [3]
+MG_pst_swp_27 = [3]
+MG_pre_swp_28 = [3]
+MG_pst_swp_28 = [3]
+MG_pre_swp_29 = [3]
+MG_pst_swp_29 = [3]
+MG_pre_swp_30 = [3]
+MG_pst_swp_30 = [3]
+MG_pre_swp_31 = [3]
+MG_pst_swp_31 = [3]
+MG_pre_swp_32 = [3]
+MG_pst_swp_32 = [3]
+MG_pre_swp_33 = [3]
+MG_pst_swp_33 = [3]
+MG_pre_swp_34 = [3]
+MG_pst_swp_34 = [3]
+MG_pre_swp_35 = [3]
+MG_pst_swp_35 = [3]
+MG_pre_swp_36 = [3]
+MG_pst_swp_36 = [3]
+MG_pre_swp_37 = [3]
+MG_pst_swp_37 = [3]
+MG_pre_swp_38 = [3]
+MG_pst_swp_38 = [3]
+MG_pre_swp_39 = [3]
+MG_pst_swp_39 = [3]
+MG_pre_swp_40 = [3]
+MG_pst_swp_40 = [3]
+MG_pre_swp_41 = [3]
+MG_pst_swp_41 = [3]
+MG_pre_swp_42 = [3]
+MG_pst_swp_42 = [3]
+MG_pre_swp_43 = [3]
+MG_pst_swp_43 = [3]
+MG_pre_swp_44 = [3]
+MG_pst_swp_44 = [3]
+MG_pre_swp_45 = [3]
+MG_pst_swp_45 = [3]
+MG_pre_swp_46 = [3]
+MG_pst_swp_46 = [3]
+MG_pre_swp_47 = [3]
+MG_pst_swp_47 = [3]
+MG_pre_swp_48 = [3]
+MG_pst_swp_48 = [3]
+MG_pre_swp_49 = [3]
+MG_pst_swp_49 = [3]
+MG_pre_swp_50 = [3]
+MG_pst_swp_50 = [3]
+do_ex = [0]
+ex = [1.000000]
+evo_tol = [0.000010]
+MG_tol = [0.000000]
+MG_crtol = [0.000100]
+MG_w0 = [1.000000]
+MG_w0 = [1.000000]
+MG_w0_r = [1.000000]
+MG_w0_i = [1.000000]
+evo_ssc = [0]
+MG_extrap_method = [0]
+MG_eps_c = [1.000000]
+MG_reinterp_bdy = [1]
+TRE_max = [0.000010]
+TRE_norm = [0]
+TRE_buffer = [2]
+TRE_ibc_buffer = [2]
+TRE_ibc_a_buffer = [0]
+TRE_exc_buffer = [2]
+TRE_exc_buffer_lmin = [6]
+TRE_sgpbh = [1]
+TRE_ibcp_buffer = [0]
+regrid_interval = [100000000]
+regrid_min_lev = [2]
+cls_method = [0]
+cls_merge_dist = [8]
+cls_align_mode = [1]
+calc_global_var_norms = [1]
+global_var_norm_type = [1]
+global_var_norm_floor = [1.000000]
+magic_cookie = [0]
+id_method = [0]
+id_user_mg_pl = [0]
+id_pl_method = [3]
+id_pl_steps = [1]
+id_pl_lambda = [0.100000]
+t_interp_substeps not found in parameter file param)
+hyperbolic_vars = 
+[ "gamma_xx" 
+  "gamma_xy" 
+  "gamma_xz" 
+  "gamma_yy" 
+  "gamma_yz" 
+  "gamma_zz" ] (6 elements in list)
+elliptic_vars not found in parameter file param)
+elliptic_vars_t0 = 
+[ "psi" 
+  "betax" 
+  "betay" 
+  "betaz" ] (4 elements in list)
+AMRH_work_vars = 
+[ "source" 
+  "ricci" 
+  "gammainvdot_xx" 
+  "gammainvdot_xy" 
+  "gammainvdot_xz" 
+  "gammainvdot_yy" 
+  "gammainvdot_yz" 
+  "gammainvdot_zz" 
+  "px" 
+  "py" 
+  "pz" 
+  "alpha" 
+  "E" 
+  "K" 
+  "DKx" 
+  "DKy" 
+  "DKz" 
+  "phist" 
+  "phistdot" 
+  "vectorvtt" 
+  "vectorvtx" 
+  "vectorvty" 
+  "vectorvtz" 
+  "vectorvtdott" 
+  "vectorvtdotx" 
+  "vectorvtdoty" 
+  "vectorvtdotz" 
+  "g_tt" 
+  "g_tx" 
+  "g_ty" 
+  "g_tz" 
+  "g_xx" 
+  "g_xy" 
+  "g_xz" 
+  "g_yy" 
+  "g_yz" 
+  "g_zz" 
+  "gdot_xx" 
+  "gdot_xy" 
+  "gdot_xz" 
+  "gdot_yy" 
+  "gdot_yz" 
+  "gdot_zz" 
+  "rho" 
+  "epsilon" 
+  "vx" 
+  "vy" 
+  "vz" 
+  "indie_res" 
+  "Ex" 
+  "Ey" 
+  "Ez" 
+  "Bx" 
+  "By" 
+  "Bz" ] (55 elements in list)
+AMRH_work_in_MGH_vars = 
+[ "source" 
+  "ricci" 
+  "gammainvdot_xx" 
+  "gammainvdot_xy" 
+  "gammainvdot_xz" 
+  "gammainvdot_yy" 
+  "gammainvdot_yz" 
+  "gammainvdot_zz" 
+  "px" 
+  "py" 
+  "pz" 
+  "alpha" 
+  "E" 
+  "K" 
+  "DKx" 
+  "DKy" 
+  "DKz" 
+  "phist" 
+  "phistdot" 
+  "vectorvtt" 
+  "vectorvtx" 
+  "vectorvty" 
+  "vectorvtz" 
+  "vectorvtdott" 
+  "vectorvtdotx" 
+  "vectorvtdoty" 
+  "vectorvtdotz" 
+  "g_tt" 
+  "g_tx" 
+  "g_ty" 
+  "g_tz" 
+  "g_xx" 
+  "g_xy" 
+  "g_xz" 
+  "g_yy" 
+  "g_yz" 
+  "g_zz" 
+  "gdot_xx" 
+  "gdot_xy" 
+  "gdot_xz" 
+  "gdot_yy" 
+  "gdot_yz" 
+  "gdot_zz" 
+  "rho" 
+  "epsilon" 
+  "vx" 
+  "vy" 
+  "vz" 
+  "indie_res" 
+  "Ex" 
+  "Ey" 
+  "Ez" 
+  "Bx" 
+  "By" 
+  "Bz" ] (55 elements in list)
+fc_vars not found in parameter file param)
+past_bdy_interp_vars not found in parameter file param)
+work_repop_vars not found in parameter file param)
+AMRH_work_inject_vars not found in parameter file param)
+MGH_work_vars not found in parameter file param)
+MG_cnst_data_vars = 
+[ "g_tt" 
+  "g_tx" 
+  "g_ty" 
+  "g_tz" 
+  "g_xx" 
+  "g_xy" 
+  "g_xz" 
+  "g_yy" 
+  "g_yz" 
+  "g_zz" 
+  "gdot_xx" 
+  "gdot_xy" 
+  "gdot_xz" 
+  "gdot_yy" 
+  "gdot_yz" 
+  "gdot_zz" 
+  "rho" 
+  "epsilon" 
+  "vx" 
+  "vy" 
+  "vz" 
+  "indie_res" ] (22 elements in list)
+free_data_vars = 
+[ "K" 
+  "DKx" 
+  "DKy" 
+  "DKz" 
+  "E" 
+  "px" 
+  "py" 
+  "pz" ] (8 elements in list)
+ex_repop1_vars not found in parameter file param)
+ex_repop2_vars not found in parameter file param)
+ex_repop3_vars not found in parameter file param)
+ex_repop4_vars not found in parameter file param)
+tnp1_diss_vars not found in parameter file param)
+diss_freq = [1]
+diss_all_past = [0]
+tn_diss_vars not found in parameter file param)
+unused_vars not found in parameter file param)
+eps_diss = [0.000000]
+tn_eps_diss = [0.350000]
+tnp1_eps_diss = [0.000000]
+diss_bdy = [1]
+repop_diss_bdy = [1]
+diss_use_6th_order = [0]
+diss_stride = [1]
+tnp1_liipb_vars not found in parameter file param)
+tnp1_liiab_vars not found in parameter file param)
+tnp1_liibb_vars not found in parameter file param)
+rg_diss_vars not found in parameter file param)
+rg_eps_diss = [0.000000]
+interp_AMR_bdy_vars not found in parameter file param)
+interp_AMR_bdy_order = [4]
+max_t_interp_order = [3]
+MG_always_sync_bdy = [0]
+re_interp_width = [0]
+re_interp_width_c = [0]
+v_to_c_in_tstep = [0]
+c_to_v_in_tstep = [0]
+TRE_vars = [ "gamma_xx" ]
+regrid_script = [0]
+c_tag = [ "(null)" ]
+v_tag = [ "(null)" ]
+AMR_bdy_width = [1]
+AMR_bdy_width_c = [1]
+resid_in_evo = [1]
+save_tag = [ "something" ]
+save_ivec = [ <ivec> ]
+save_ivec_1 = [ <ivec> ]
+save_ivec_2 = [ <ivec> ]
+save_ivec_3 = [ <ivec> ]
+save_mg_vars not found in parameter file param)
+save_1_vars = [ "" ]
+save_2_vars not found in parameter file param)
+save_3_vars not found in parameter file param)
+save_4_vars not found in parameter file param)
+save_5_vars not found in parameter file param)
+amr_inject not found in parameter file param)
+amr_hw_inject not found in parameter file param)
+amr_inject_wavg not found in parameter file param)
+amr_interp1 not found in parameter file param)
+amr_interp2 not found in parameter file param)
+amr_interp4 not found in parameter file param)
+amr_sync not found in parameter file param)
+amr_transfer1 not found in parameter file param)
+amr_transfer2 not found in parameter file param)
+amr_transfer4 not found in parameter file param)
+amr_c_to_v2 not found in parameter file param)
+amr_v_to_c2 not found in parameter file param)
+amr_bdy_interp1 not found in parameter file param)
+amr_bdy_interp2 not found in parameter file param)
+mg_interp2 = 
+[ "psi" 
+  "betax" 
+  "betay" 
+  "betaz" ] (4 elements in list)
+mg_hw_restr not found in parameter file param)
+mg_fw_restr not found in parameter file param)
+mg_hw_restr_bdy_si not found in parameter file param)
+mg_hw_restr_extrap = 
+[ "psi" 
+  "betax" 
+  "betay" 
+  "betaz" 
+  "source" 
+  "gamma_xx" 
+  "gamma_xy" 
+  "gamma_xz" 
+  "gamma_yy" 
+  "gamma_yz" 
+  "gamma_zz" 
+  "gammainvdot_xx" 
+  "gammainvdot_xy" 
+  "gammainvdot_xz" 
+  "gammainvdot_yy" 
+  "gammainvdot_yz" 
+  "gammainvdot_zz" 
+  "px" 
+  "py" 
+  "pz" 
+  "alpha" 
+  "E" 
+  "K" 
+  "DKx" 
+  "DKy" 
+  "DKz" 
+  "phist" 
+  "phistdot" 
+  "vectorvtt" 
+  "vectorvtx" 
+  "vectorvty" 
+  "vectorvtz" 
+  "vectorvtdott" 
+  "vectorvtdotx" 
+  "vectorvtdoty" 
+  "vectorvtdotz" 
+  "Ex" 
+  "Ey" 
+  "Ez" 
+  "Bx" 
+  "By" 
+  "Bz" ] (42 elements in list)
+mg_sync = 
+[ "psi" 
+  "betax" 
+  "betay" 
+  "betaz" ] (4 elements in list)
+MG_no_cgc not found in parameter file param)
+base_shape = [9,9,9]
+base_bbox = [-16.000000,16.000000,-16.000000,16.000000,-16.000000,16.000000]
+cp_delta_t_hrs = [0.000000]
+cp_restart = [0]
+cp_first_delta_t_hrs = [0.000000]
+np1_initial_guess = [1]
+num_evo_tl = [2]
+periodic = [0,0,0]
+t0 = [0.000000]
+ic_n = [2]
+skip_frg = [1]
+init_depth = [3]
+rho_sp = [2]
+rho_tm = [2]
+rho_sp_all = [2,2,2]
+rho_tm_all = [2,2,2]
+lambda = [0.200000]
+ghost_width = [3,3,3]
+gdm_grid_by_grid = [0]
+gdm_align = [0]
+gdm_no_overlap = [1]
+min_width = [9,9,9]
+min_mg_cwidth = [5,5,5]
+even_vars_x0min not found in parameter file param)
+even_vars_x1min not found in parameter file param)
+even_vars_x2min not found in parameter file param)
+even_vars_x0max not found in parameter file param)
+even_vars_x1max not found in parameter file param)
+even_vars_x2max not found in parameter file param)
+odd_vars_x0min not found in parameter file param)
+odd_vars_x1min not found in parameter file param)
+odd_vars_x2min not found in parameter file param)
+odd_vars_x0max not found in parameter file param)
+odd_vars_x1max not found in parameter file param)
+odd_vars_x2max not found in parameter file param)
+
+Defining hyperbolic variables:
+==============================
+gamma_xx: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gamma_xx_tre:
+
+gamma_xy: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gamma_xz: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gamma_yy: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gamma_yz: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gamma_zz: in_amrh=1, in_mgh=1, num_tl=2, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+
+Defining elliptic variables:
+===========================
+
+Defining AMR work variables (55):
+================================
+source: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+ricci: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_xx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_xy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_xz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_yy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_yz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gammainvdot_zz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+px: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+py: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+pz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+alpha: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+E: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+K: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+DKx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+DKy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+DKz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+phist: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+phistdot: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtt: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvty: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtdott: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtdotx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtdoty: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vectorvtdotz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_tt: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_tx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_ty: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_tz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_xx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_xy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_xz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_yy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_yz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+g_zz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_xx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_xy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_xz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_yy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_yz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+gdot_zz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+rho: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+epsilon: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vy: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+vz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+indie_res: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=0
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+Ex: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+Ey: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+Ez: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+Bx: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+By: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+Bz: in_amrh=1, in_mgh=1, num_tl=1, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=0, mg_noinj_to_amr=1, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+
+Defining MG work variables (0):
+===============================
+
+Defining elliptic_t0 variables:
+===============================
+psi: in_amrh=0, in_mgh=1, num_tl=0, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=1, mg_noinj_to_amr=0, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+psi_res: mg_inject=2, mg_interp=2
+
+psi_lop:
+
+psi_rhs:
+
+betax: in_amrh=0, in_mgh=1, num_tl=0, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=1, mg_noinj_to_amr=0, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+betax_res: mg_inject=2, mg_interp=2
+
+betax_lop:
+
+betax_rhs:
+
+betay: in_amrh=0, in_mgh=1, num_tl=0, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=1, mg_noinj_to_amr=0, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+betay_res: mg_inject=2, mg_interp=2
+
+betay_lop:
+
+betay_rhs:
+
+betaz: in_amrh=0, in_mgh=1, num_tl=0, amr_inject=0
+	amr_interp=0, amr_bdy_interp=0, amr_sync=0, mg_inject=5
+	mg_interp=0, mg_sync=1, mg_noinj_to_amr=0, regrid_transfer=2
+	phys_bdy_type=[0,0,0,0,0,0]
+
+betaz_res: mg_inject=2, mg_interp=2
+
+betaz_lop:
+
+betaz_rhs:
+
+
+Defining misc. variables:
+=========================
+cmask:
+
+__cmask_c:
+
+AMRD_tre:
+
+__AMRD_tre_c:
+
+amrd_w1:
+
+__AMRD_w1_c:
+
+
+AMR on: initializing base level plus shadow, up to level 3
+
+init_bbox_3 = [-8.000000,8.000000,-8.000000,8.000000,-8.000000,8.000000]
+init_bbox_b_3 = [-1000000.000000,0.000000,0.000000,0.000000,0.000000,0.000000]
+
+sgh_cull_overlap() not yet implemented 
+[NOTE : At present some operations (e.g. boundary interpolation) will not work correctly with (non-parallel) overlapping grids
+
+init_context() complete
+
+===============================================================================
+===================================================================
+Reading IDsolve parameters:
+
+flat_space_id = [0]
+black_hole_id = [0]
+brill_wave_id = [0]
+quad_gw_id = [0]
+star_id = [1]
+conf_flat = [0]
+omega_scale = [0]
+bh_a_mass = [0.000000]
+bh_a_spin = [0.000000]
+bh_a_reg_frac = [0.600000]
+bh_a_charge = [0.000000]
+bh_b_mass = [0.000000]
+bh_b_spin = [0.000000]
+bh_b_reg_frac = [0.600000]
+bh_b_charge = [0.000000]
+bw_amp = [0.000000]
+bw_sigma_r = [1.000000]
+bw_sigma_x = [1.000000]
+bw_R0 = [0.000000]
+bw_dR = [0.000000]
+bw_eps_x = [0.000000]
+rho_central_a = [18.668200]
+rho_central_b = [18.668200]
+dr_tov = [0.000025]
+atm_pressure = [0.000000]
+rotating_star_a_filename = [ "(null)" ]
+rotating_star_b_filename = [ "(null)" ]
+rotating_star_length_scale = [1.000000]
+phist_inf = [0.000000]
+w_att_a = [0.000000]
+w_att_b = [0.000000]
+bh_a_xc = [0.000000,0.000000,0.000000]
+bh_b_xc = [0.000000,0.000000,0.000000]
+bh_a_v = [0.000000,0.000000,0.000000]
+bh_b_v = [0.000000,0.000000,0.000000]
+bh_a_rot_angles = [0.000000,0.000000,0.000000]
+bh_b_rot_angles = [0.000000,0.000000,0.000000]
+star_a_xc = [0.000000,0.000000,0.000000]
+star_b_xc = [0.000000,0.000000,0.000000]
+star_a_v = [0.000000,0.000000,0.000000]
+star_b_v = [0.000000,0.000000,0.000000]
+star_a_rot_angles = [0.000000,0.000000,0.000000]
+star_b_rot_angles = [0.000000,0.000000,0.000000]
+eos_type = [5]
+Gamma_eos = [2.000000]
+K_poly = [1.000000]
+pp_mass_conv = [0.011852]
+theory_type = [1]
+st_on = [1]
+beta_st = [1.000000]
+mass_st = [0.100000]
+phist_guess = [0.005647]
+vt_on = [0]
+beta_vt = [2.250000]
+mass_vt = [0.000000]
+farcoeff_vt = [2.000000]
+ghiggs_on = [0]
+beta_ghiggs = [2.250000]
+mass_ghiggs = [0.000000]
+charge_ghiggs = [0.010000]
+variousMphi_on = [0]
+tovRelaxation_on = [1]
+star_radius = [0.084500]
+radius_begin = [0.170000]
+radius_end = [1.200000]
+nrelax_tov = [1025]
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 1.000000e+00 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 0
+rho= 1.180000e+00 isScalarized= 0
+rho= 1.670000e+00 isScalarized= 0
+rho= 2.160000e+00 isScalarized= 0
+rho= 2.650000e+00 isScalarized= 0
+rho= 3.140000e+00 isScalarized= 0
+rho= 3.630000e+00 isScalarized= 0
+rho= 4.120000e+00 isScalarized= 0
+rho= 4.610000e+00 isScalarized= 0
+rho= 5.100000e+00 isScalarized= 0
+rho= 5.590000e+00 isScalarized= 0
+rho= 6.080000e+00 isScalarized= 0
+rho= 6.570000e+00 isScalarized= 0
+rho= 7.060000e+00 isScalarized= 0
+rho= 7.550000e+00 isScalarized= 0
+rho= 8.040000e+00 isScalarized= 0
+rho= 8.530000e+00 isScalarized= 0
+rho= 9.020000e+00 isScalarized= 0
+rho= 9.510000e+00 isScalarized= 0
+rho= 1.000000e+01 isScalarized= 0
+Enlarging the rhointerval to (1.500000e-01, 1.500000e+01)
+Too wide range of rhoc. No scalarized star was found.
+findScalarizationShooting failed when finding rhoBegin.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 6.000000e+00 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 9.400000e-01 isScalarized= 0
+rho= 1.680000e+00 isScalarized= 0
+rho= 2.420000e+00 isScalarized= 0
+rho= 3.160000e+00 isScalarized= 0
+rho= 3.900000e+00 isScalarized= 0
+rho= 4.640000e+00 isScalarized= 0
+rho= 5.380000e+00 isScalarized= 0
+rho= 6.120000e+00 isScalarized= 0
+rho= 6.860000e+00 isScalarized= 1
+rhoBegin= 6.120000e+00 phiCentral= 1.856245e-02
+rho= 6.157000e+00 isScalarized= 0
+rho= 6.194000e+00 isScalarized= 0
+rho= 6.231000e+00 isScalarized= 0
+rho= 6.268000e+00 isScalarized= 0
+rho= 6.305000e+00 isScalarized= 0
+rho= 6.342000e+00 isScalarized= 0
+rho= 6.379000e+00 isScalarized= 0
+rho= 6.416000e+00 isScalarized= 0
+rho= 6.453000e+00 isScalarized= 0
+rho= 6.490000e+00 isScalarized= 0
+rho= 6.527000e+00 isScalarized= 0
+rho= 6.564000e+00 isScalarized= 0
+rho= 6.601000e+00 isScalarized= 0
+rho= 6.638000e+00 isScalarized= 1
+rhoBegin= 6.601000e+00 phiCentral= 1.995272e-03
+rho= 6.602850e+00 isScalarized= 0
+rho= 6.604700e+00 isScalarized= 0
+rho= 6.606550e+00 isScalarized= 0
+rho= 6.608400e+00 isScalarized= 0
+rho= 6.610250e+00 isScalarized= 0
+rho= 6.612100e+00 isScalarized= 0
+rho= 6.613950e+00 isScalarized= 0
+rho= 6.615800e+00 isScalarized= 0
+rho= 6.617650e+00 isScalarized= 0
+rho= 6.619500e+00 isScalarized= 0
+rho= 6.621350e+00 isScalarized= 0
+rho= 6.623200e+00 isScalarized= 0
+rho= 6.625050e+00 isScalarized= 0
+rho= 6.626900e+00 isScalarized= 0
+rho= 6.628750e+00 isScalarized= 0
+rho= 6.630600e+00 isScalarized= 0
+rho= 6.632450e+00 isScalarized= 0
+rho= 6.634300e+00 isScalarized= 0
+rho= 6.636150e+00 isScalarized= 1
+rhoBegin= 6.634300e+00 phiCentral= 1.106132e-03
+rho= 6.634393e+00 isScalarized= 0
+rho= 6.634485e+00 isScalarized= 0
+rho= 6.634578e+00 isScalarized= 0
+rho= 6.634670e+00 isScalarized= 0
+rho= 6.634763e+00 isScalarized= 0
+rho= 6.634855e+00 isScalarized= 0
+rho= 6.634948e+00 isScalarized= 0
+rho= 6.635040e+00 isScalarized= 0
+rho= 6.635133e+00 isScalarized= 0
+rho= 6.635225e+00 isScalarized= 0
+rho= 6.635318e+00 isScalarized= 0
+rho= 6.635410e+00 isScalarized= 1
+rhoBegin= 6.635318e+00 phiCentral= 3.476628e-04
+rho= 6.635322e+00 isScalarized= 0
+rho= 6.635327e+00 isScalarized= 0
+rho= 6.635331e+00 isScalarized= 1
+rhoBegin= 6.635327e+00 phiCentral= 6.102656e-05
+rho= 6.635327e+00 isScalarized= 0
+rho= 6.635327e+00 isScalarized= 0
+rho= 6.635327e+00 isScalarized= 0
+rho= 6.635328e+00 isScalarized= 0
+rho= 6.635328e+00 isScalarized= 0
+rho= 6.635328e+00 isScalarized= 0
+rho= 6.635328e+00 isScalarized= 0
+rho= 6.635329e+00 isScalarized= 0
+rho= 6.635329e+00 isScalarized= 0
+rho= 6.635329e+00 isScalarized= 1
+rhoBegin= 6.635329e+00 phiCentral= 1.669829e-05
+rho= 6.635329e+00 isScalarized= 0
+rho= 6.635329e+00 isScalarized= 0
+rho= 6.635329e+00 isScalarized= 0
+rho= 6.635329e+00 isScalarized= 1
+rhoBegin= 6.635329e+00 phiCentral= 1.788846e-06
+Star #0: 
+1 0 1 1 2.234337e-13 7.560794e-09 3.999987e+00 7.728154e-02 4.343434e-03 4.151536e-03 1.788859e-06 6.635329e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0006p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.230714e-09 3.664109e-05 3.999987e+00 7.715462e-02 4.379167e-03 4.184137e-03 8.659173e-03 6.685329e+00 19
+Appending parameters to firstStarsParam_eos_5_beta_0006p000 ...
+Done!
+Star #2: 
+1 0 1 1 1.602723e-09 5.204596e-05 3.999987e+00 7.702734e-02 4.415577e-03 4.217324e-03 1.228558e-02 6.735329e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0006p000 ...
+Done!
+Star #3: 
+1 0 1 1 1.867594e-09 6.402350e-05 3.999987e+00 7.690545e-02 4.452659e-03 4.251097e-03 1.509515e-02 6.785329e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0006p000 ...
+Done!
+Star #4: 
+1 0 1 1 1.893645e-09 7.425281e-05 3.999987e+00 7.678599e-02 4.490413e-03 4.285456e-03 1.748617e-02 6.835329e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0006p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 1.100000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 0
+rho= 1.180000e+00 isScalarized= 0
+rho= 1.670000e+00 isScalarized= 0
+rho= 2.160000e+00 isScalarized= 0
+rho= 2.650000e+00 isScalarized= 0
+rho= 3.140000e+00 isScalarized= 0
+rho= 3.630000e+00 isScalarized= 0
+rho= 4.120000e+00 isScalarized= 0
+rho= 4.610000e+00 isScalarized= 0
+rho= 5.100000e+00 isScalarized= 1
+rhoBegin= 4.610000e+00 phiCentral= 1.802756e-02
+rho= 4.634500e+00 isScalarized= 0
+rho= 4.659000e+00 isScalarized= 1
+rhoBegin= 4.634500e+00 phiCentral= 2.842230e-03
+rho= 4.635725e+00 isScalarized= 0
+rho= 4.636950e+00 isScalarized= 0
+rho= 4.638175e+00 isScalarized= 0
+rho= 4.639400e+00 isScalarized= 0
+rho= 4.640625e+00 isScalarized= 0
+rho= 4.641850e+00 isScalarized= 0
+rho= 4.643075e+00 isScalarized= 0
+rho= 4.644300e+00 isScalarized= 0
+rho= 4.645525e+00 isScalarized= 0
+rho= 4.646750e+00 isScalarized= 1
+rhoBegin= 4.645525e+00 phiCentral= 3.301508e-04
+rho= 4.645586e+00 isScalarized= 0
+rho= 4.645647e+00 isScalarized= 0
+rho= 4.645709e+00 isScalarized= 0
+rho= 4.645770e+00 isScalarized= 0
+rho= 4.645831e+00 isScalarized= 0
+rho= 4.645892e+00 isScalarized= 0
+rho= 4.645954e+00 isScalarized= 0
+rho= 4.646015e+00 isScalarized= 0
+rho= 4.646076e+00 isScalarized= 0
+rho= 4.646137e+00 isScalarized= 0
+rho= 4.646199e+00 isScalarized= 0
+rho= 4.646260e+00 isScalarized= 0
+rho= 4.646321e+00 isScalarized= 0
+rho= 4.646382e+00 isScalarized= 0
+rho= 4.646444e+00 isScalarized= 0
+rho= 4.646505e+00 isScalarized= 0
+rho= 4.646566e+00 isScalarized= 0
+rho= 4.646627e+00 isScalarized= 1
+rhoBegin= 4.646566e+00 phiCentral= 1.718334e-04
+rho= 4.646569e+00 isScalarized= 0
+rho= 4.646572e+00 isScalarized= 0
+rho= 4.646575e+00 isScalarized= 0
+rho= 4.646578e+00 isScalarized= 0
+rho= 4.646582e+00 isScalarized= 0
+rho= 4.646585e+00 isScalarized= 1
+rhoBegin= 4.646582e+00 phiCentral= 4.137898e-05
+rho= 4.646582e+00 isScalarized= 0
+rho= 4.646582e+00 isScalarized= 0
+rho= 4.646582e+00 isScalarized= 1
+rhoBegin= 4.646582e+00 phiCentral= 4.847501e-06
+Star #0: 
+1 0 1 1 1.050694e-12 1.878571e-08 3.999987e+00 8.377459e-02 2.048883e-03 2.001352e-03 4.847504e-06 4.646582e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0011p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.405145e-09 2.222037e-05 3.999987e+00 8.321925e-02 2.068485e-03 2.019981e-03 5.727095e-03 4.696582e+00 17
+Appending parameters to firstStarsParam_eos_5_beta_0011p000 ...
+Done!
+Star #2: 
+1 0 1 1 1.649579e-09 3.163663e-05 3.999987e+00 8.267872e-02 2.088808e-03 2.039281e-03 8.144413e-03 4.746582e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0011p000 ...
+Done!
+Star #3: 
+1 0 1 1 2.469530e-09 3.901423e-05 3.999987e+00 8.215542e-02 2.109839e-03 2.059254e-03 1.003019e-02 4.796582e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0011p000 ...
+Done!
+Star #4: 
+1 0 1 1 2.510166e-09 4.536018e-05 3.999987e+00 8.164231e-02 2.131601e-03 2.079905e-03 1.164596e-02 4.846582e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0011p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 1.600000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 0
+rho= 1.180000e+00 isScalarized= 0
+rho= 1.670000e+00 isScalarized= 0
+rho= 2.160000e+00 isScalarized= 0
+rho= 2.650000e+00 isScalarized= 0
+rho= 3.140000e+00 isScalarized= 0
+rho= 3.630000e+00 isScalarized= 0
+rho= 4.120000e+00 isScalarized= 1
+rhoBegin= 3.630000e+00 phiCentral= 1.244170e-02
+rho= 3.654500e+00 isScalarized= 0
+rho= 3.679000e+00 isScalarized= 0
+rho= 3.703500e+00 isScalarized= 0
+rho= 3.728000e+00 isScalarized= 0
+rho= 3.752500e+00 isScalarized= 1
+rhoBegin= 3.728000e+00 phiCentral= 2.016360e-03
+rho= 3.729225e+00 isScalarized= 0
+rho= 3.730450e+00 isScalarized= 0
+rho= 3.731675e+00 isScalarized= 0
+rho= 3.732900e+00 isScalarized= 0
+rho= 3.734125e+00 isScalarized= 0
+rho= 3.735350e+00 isScalarized= 0
+rho= 3.736575e+00 isScalarized= 0
+rho= 3.737800e+00 isScalarized= 0
+rho= 3.739025e+00 isScalarized= 0
+rho= 3.740250e+00 isScalarized= 0
+rho= 3.741475e+00 isScalarized= 1
+rhoBegin= 3.740250e+00 phiCentral= 1.189453e-04
+rho= 3.740311e+00 isScalarized= 0
+rho= 3.740372e+00 isScalarized= 0
+rho= 3.740434e+00 isScalarized= 0
+rho= 3.740495e+00 isScalarized= 0
+rho= 3.740556e+00 isScalarized= 0
+rho= 3.740617e+00 isScalarized= 0
+rho= 3.740679e+00 isScalarized= 0
+rho= 3.740740e+00 isScalarized= 0
+rho= 3.740801e+00 isScalarized= 0
+rho= 3.740862e+00 isScalarized= 0
+rho= 3.740924e+00 isScalarized= 0
+rho= 3.740985e+00 isScalarized= 0
+rho= 3.741046e+00 isScalarized= 0
+rho= 3.741107e+00 isScalarized= 0
+rho= 3.741169e+00 isScalarized= 0
+rho= 3.741230e+00 isScalarized= 0
+rho= 3.741291e+00 isScalarized= 0
+rho= 3.741352e+00 isScalarized= 0
+rho= 3.741414e+00 isScalarized= 0
+rho= 3.741475e+00 isScalarized= 1
+rhoBegin= 3.741414e+00 phiCentral= 1.189453e-04
+rho= 3.741417e+00 isScalarized= 0
+rho= 3.741420e+00 isScalarized= 0
+rho= 3.741423e+00 isScalarized= 0
+rho= 3.741426e+00 isScalarized= 0
+rho= 3.741429e+00 isScalarized= 0
+rho= 3.741432e+00 isScalarized= 0
+rho= 3.741435e+00 isScalarized= 0
+rho= 3.741438e+00 isScalarized= 1
+rhoBegin= 3.741435e+00 phiCentral= 2.620653e-05
+rho= 3.741435e+00 isScalarized= 0
+rho= 3.741435e+00 isScalarized= 0
+rho= 3.741436e+00 isScalarized= 0
+rho= 3.741436e+00 isScalarized= 0
+rho= 3.741436e+00 isScalarized= 0
+rho= 3.741436e+00 isScalarized= 0
+rho= 3.741436e+00 isScalarized= 0
+rho= 3.741436e+00 isScalarized= 1
+rhoBegin= 3.741436e+00 phiCentral= 3.705237e-06
+Star #0: 
+1 0 1 1 1.500631e-12 1.374529e-08 3.999987e+00 9.854410e-02 1.358924e-03 1.337714e-03 3.705235e-06 3.741436e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0016p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.352006e-09 1.598655e-05 3.999987e+00 9.724563e-02 1.368871e-03 1.347231e-03 4.311020e-03 3.791436e+00 17
+Appending parameters to firstStarsParam_eos_5_beta_0016p000 ...
+Done!
+Star #2: 
+1 0 1 1 2.007816e-09 2.277275e-05 3.999987e+00 9.598190e-02 1.379663e-03 1.357564e-03 6.141413e-03 3.841436e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0016p000 ...
+Done!
+Star #3: 
+1 0 1 1 2.532782e-09 2.809853e-05 3.999987e+00 9.475406e-02 1.391296e-03 1.368712e-03 7.576701e-03 3.891436e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0016p000 ...
+Done!
+Star #4: 
+1 0 1 1 3.104980e-09 3.269311e-05 3.999987e+00 9.356284e-02 1.403774e-03 1.380674e-03 8.812692e-03 3.941436e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0016p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 2.100000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 0
+rho= 1.180000e+00 isScalarized= 0
+rho= 1.670000e+00 isScalarized= 0
+rho= 2.160000e+00 isScalarized= 0
+rho= 2.650000e+00 isScalarized= 0
+rho= 3.140000e+00 isScalarized= 0
+rho= 3.630000e+00 isScalarized= 1
+rhoBegin= 3.140000e+00 phiCentral= 1.131621e-02
+rho= 3.164500e+00 isScalarized= 1
+rhoBegin= 3.140000e+00 phiCentral= 1.609996e-03
+rho= 3.141225e+00 isScalarized= 0
+rho= 3.142450e+00 isScalarized= 0
+rho= 3.143675e+00 isScalarized= 0
+rho= 3.144900e+00 isScalarized= 0
+rho= 3.146125e+00 isScalarized= 0
+rho= 3.147350e+00 isScalarized= 0
+rho= 3.148575e+00 isScalarized= 0
+rho= 3.149800e+00 isScalarized= 0
+rho= 3.151025e+00 isScalarized= 0
+rho= 3.152250e+00 isScalarized= 0
+rho= 3.153475e+00 isScalarized= 1
+rhoBegin= 3.152250e+00 phiCentral= 3.188787e-04
+rho= 3.152311e+00 isScalarized= 0
+rho= 3.152372e+00 isScalarized= 0
+rho= 3.152434e+00 isScalarized= 0
+rho= 3.152495e+00 isScalarized= 0
+rho= 3.152556e+00 isScalarized= 0
+rho= 3.152617e+00 isScalarized= 0
+rho= 3.152679e+00 isScalarized= 0
+rho= 3.152740e+00 isScalarized= 0
+rho= 3.152801e+00 isScalarized= 0
+rho= 3.152862e+00 isScalarized= 0
+rho= 3.152924e+00 isScalarized= 0
+rho= 3.152985e+00 isScalarized= 0
+rho= 3.153046e+00 isScalarized= 1
+rhoBegin= 3.152985e+00 phiCentral= 7.253673e-05
+rho= 3.152988e+00 isScalarized= 0
+rho= 3.152991e+00 isScalarized= 0
+rho= 3.152994e+00 isScalarized= 0
+rho= 3.152997e+00 isScalarized= 0
+rho= 3.153000e+00 isScalarized= 0
+rho= 3.153003e+00 isScalarized= 0
+rho= 3.153006e+00 isScalarized= 0
+rho= 3.153009e+00 isScalarized= 0
+rho= 3.153013e+00 isScalarized= 0
+rho= 3.153016e+00 isScalarized= 0
+rho= 3.153019e+00 isScalarized= 0
+rho= 3.153022e+00 isScalarized= 0
+rho= 3.153025e+00 isScalarized= 1
+rhoBegin= 3.153022e+00 phiCentral= 2.100796e-05
+rho= 3.153022e+00 isScalarized= 0
+rho= 3.153022e+00 isScalarized= 0
+rho= 3.153022e+00 isScalarized= 0
+rho= 3.153022e+00 isScalarized= 0
+rho= 3.153023e+00 isScalarized= 0
+rho= 3.153023e+00 isScalarized= 0
+rho= 3.153023e+00 isScalarized= 0
+rho= 3.153023e+00 isScalarized= 1
+rhoBegin= 3.153023e+00 phiCentral= 5.307863e-06
+Star #0: 
+1 0 1 1 2.609180e-12 1.981758e-08 3.999987e+00 1.208158e-01 1.085725e-03 1.073068e-03 5.307866e-06 3.153023e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0021p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.733715e-09 1.258560e-05 3.999987e+00 1.186590e-01 1.086404e-03 1.073571e-03 3.385279e-03 3.203023e+00 16
+Appending parameters to firstStarsParam_eos_5_beta_0021p000 ...
+Done!
+Star #2: 
+1 0 1 1 2.315506e-09 1.789979e-05 3.999987e+00 1.165183e-01 1.088121e-03 1.075090e-03 4.833175e-03 3.253023e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0021p000 ...
+Done!
+Star #3: 
+1 0 1 1 3.560244e-09 2.205905e-05 3.999987e+00 1.144023e-01 1.090873e-03 1.077624e-03 5.975430e-03 3.303023e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0021p000 ...
+Done!
+Star #4: 
+1 0 1 1 3.289663e-09 2.563348e-05 3.999987e+00 1.123201e-01 1.094667e-03 1.081173e-03 6.964678e-03 3.353023e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0021p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 2.600000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 0
+rho= 1.180000e+00 isScalarized= 0
+rho= 1.670000e+00 isScalarized= 0
+rho= 2.160000e+00 isScalarized= 0
+rho= 2.650000e+00 isScalarized= 0
+rho= 3.140000e+00 isScalarized= 1
+rhoBegin= 2.650000e+00 phiCentral= 8.916293e-03
+rho= 2.674500e+00 isScalarized= 1
+rhoBegin= 2.650000e+00 phiCentral= 1.493097e-03
+rho= 2.651225e+00 isScalarized= 0
+rho= 2.652450e+00 isScalarized= 0
+rho= 2.653675e+00 isScalarized= 0
+rho= 2.654900e+00 isScalarized= 0
+rho= 2.656125e+00 isScalarized= 0
+rho= 2.657350e+00 isScalarized= 1
+rhoBegin= 2.656125e+00 phiCentral= 2.811295e-04
+rho= 2.656186e+00 isScalarized= 0
+rho= 2.656247e+00 isScalarized= 0
+rho= 2.656309e+00 isScalarized= 0
+rho= 2.656370e+00 isScalarized= 0
+rho= 2.656431e+00 isScalarized= 0
+rho= 2.656492e+00 isScalarized= 0
+rho= 2.656554e+00 isScalarized= 0
+rho= 2.656615e+00 isScalarized= 0
+rho= 2.656676e+00 isScalarized= 0
+rho= 2.656737e+00 isScalarized= 1
+rhoBegin= 2.656676e+00 phiCentral= 5.654802e-05
+rho= 2.656679e+00 isScalarized= 0
+rho= 2.656682e+00 isScalarized= 0
+rho= 2.656685e+00 isScalarized= 0
+rho= 2.656688e+00 isScalarized= 0
+rho= 2.656692e+00 isScalarized= 0
+rho= 2.656695e+00 isScalarized= 0
+rho= 2.656698e+00 isScalarized= 0
+rho= 2.656701e+00 isScalarized= 0
+rho= 2.656704e+00 isScalarized= 0
+rho= 2.656707e+00 isScalarized= 0
+rho= 2.656710e+00 isScalarized= 0
+rho= 2.656713e+00 isScalarized= 1
+rhoBegin= 2.656710e+00 phiCentral= 1.287646e-05
+rho= 2.656710e+00 isScalarized= 0
+rho= 2.656710e+00 isScalarized= 0
+rho= 2.656710e+00 isScalarized= 0
+rho= 2.656711e+00 isScalarized= 0
+rho= 2.656711e+00 isScalarized= 0
+rho= 2.656711e+00 isScalarized= 0
+rho= 2.656711e+00 isScalarized= 0
+rho= 2.656711e+00 isScalarized= 0
+rho= 2.656711e+00 isScalarized= 0
+rho= 2.656711e+00 isScalarized= 0
+rho= 2.656712e+00 isScalarized= 0
+rho= 2.656712e+00 isScalarized= 1
+rhoBegin= 2.656712e+00 phiCentral= 3.769630e-06
+Star #0: 
+1 0 1 1 2.118909e-12 1.522193e-08 3.999987e+00 1.474726e-01 9.954310e-04 9.861703e-04 3.769632e-06 2.656712e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0026p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.570276e-09 1.009892e-05 3.999987e+00 1.452460e-01 9.878969e-04 9.786173e-04 2.531209e-03 2.706712e+00 16
+Appending parameters to firstStarsParam_eos_5_beta_0026p000 ...
+Done!
+Star #2: 
+1 0 1 1 2.270402e-09 1.435755e-05 3.999987e+00 1.429121e-01 9.810697e-04 9.717567e-04 3.639291e-03 2.756712e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0026p000 ...
+Done!
+Star #3: 
+1 0 1 1 3.148387e-09 1.767975e-05 3.999987e+00 1.404866e-01 9.750499e-04 9.656879e-04 4.528044e-03 2.806712e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0026p000 ...
+Done!
+Star #4: 
+1 0 1 1 2.944897e-09 2.052490e-05 3.999987e+00 1.379841e-01 9.699196e-04 9.604914e-04 5.308268e-03 2.856712e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0026p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 3.100000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 0
+rho= 1.180000e+00 isScalarized= 0
+rho= 1.670000e+00 isScalarized= 0
+rho= 2.160000e+00 isScalarized= 1
+rhoBegin= 1.670000e+00 phiCentral= 4.224205e-03
+rho= 1.694500e+00 isScalarized= 0
+rho= 1.719000e+00 isScalarized= 0
+rho= 1.743500e+00 isScalarized= 0
+rho= 1.768000e+00 isScalarized= 1
+rhoBegin= 1.743500e+00 phiCentral= 4.924111e-04
+rho= 1.744725e+00 isScalarized= 0
+rho= 1.745950e+00 isScalarized= 0
+rho= 1.747175e+00 isScalarized= 0
+rho= 1.748400e+00 isScalarized= 0
+rho= 1.749625e+00 isScalarized= 0
+rho= 1.750850e+00 isScalarized= 0
+rho= 1.752075e+00 isScalarized= 0
+rho= 1.753300e+00 isScalarized= 0
+rho= 1.754525e+00 isScalarized= 0
+rho= 1.755750e+00 isScalarized= 0
+rho= 1.756975e+00 isScalarized= 0
+rho= 1.758200e+00 isScalarized= 0
+rho= 1.759425e+00 isScalarized= 0
+rho= 1.760650e+00 isScalarized= 0
+rho= 1.761875e+00 isScalarized= 0
+rho= 1.763100e+00 isScalarized= 1
+rhoBegin= 1.761875e+00 phiCentral= 1.149400e-04
+rho= 1.761936e+00 isScalarized= 0
+rho= 1.761998e+00 isScalarized= 0
+rho= 1.762059e+00 isScalarized= 0
+rho= 1.762120e+00 isScalarized= 0
+rho= 1.762181e+00 isScalarized= 0
+rho= 1.762242e+00 isScalarized= 0
+rho= 1.762304e+00 isScalarized= 0
+rho= 1.762365e+00 isScalarized= 0
+rho= 1.762426e+00 isScalarized= 0
+rho= 1.762487e+00 isScalarized= 0
+rho= 1.762549e+00 isScalarized= 0
+rho= 1.762610e+00 isScalarized= 0
+rho= 1.762671e+00 isScalarized= 0
+rho= 1.762732e+00 isScalarized= 0
+rho= 1.762794e+00 isScalarized= 0
+rho= 1.762855e+00 isScalarized= 1
+rhoBegin= 1.762794e+00 phiCentral= 4.173401e-05
+rho= 1.762797e+00 isScalarized= 0
+rho= 1.762800e+00 isScalarized= 0
+rho= 1.762803e+00 isScalarized= 0
+rho= 1.762806e+00 isScalarized= 0
+rho= 1.762809e+00 isScalarized= 0
+rho= 1.762812e+00 isScalarized= 0
+rho= 1.762815e+00 isScalarized= 0
+rho= 1.762818e+00 isScalarized= 1
+rhoBegin= 1.762815e+00 phiCentral= 4.610009e-06
+rho= 1.762815e+00 isScalarized= 0
+rho= 1.762815e+00 isScalarized= 0
+rho= 1.762816e+00 isScalarized= 0
+rho= 1.762816e+00 isScalarized= 0
+rho= 1.762816e+00 isScalarized= 0
+rho= 1.762816e+00 isScalarized= 0
+rho= 1.762816e+00 isScalarized= 0
+rho= 1.762816e+00 isScalarized= 0
+rho= 1.762817e+00 isScalarized= 0
+rho= 1.762817e+00 isScalarized= 0
+rho= 1.762817e+00 isScalarized= 0
+rho= 1.762817e+00 isScalarized= 0
+rho= 1.762817e+00 isScalarized= 0
+rho= 1.762817e+00 isScalarized= 0
+rho= 1.762817e+00 isScalarized= 0
+rho= 1.762818e+00 isScalarized= 0
+rho= 1.762818e+00 isScalarized= 0
+rho= 1.762818e+00 isScalarized= 1
+rhoBegin= 1.762818e+00 phiCentral= 2.629606e-06
+Star #0: 
+1 0 1 1 1.400722e-12 1.248789e-08 3.999987e+00 1.736086e-01 9.838113e-04 9.761249e-04 2.629607e-06 1.762818e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0031p000 ...
+Done!
+Star #1: 
+1 0 1 1 8.198822e-10 7.178488e-06 3.999987e+00 1.723074e-01 9.787434e-04 9.710618e-04 1.525732e-03 1.812818e+00 16
+Appending parameters to firstStarsParam_eos_5_beta_0031p000 ...
+Done!
+Star #2: 
+1 0 1 1 1.165392e-09 1.003310e-05 3.999987e+00 1.710431e-01 9.738666e-04 9.661888e-04 2.151857e-03 1.862818e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0031p000 ...
+Done!
+Star #3: 
+1 0 1 1 1.417641e-09 1.214768e-05 3.999987e+00 1.698129e-01 9.691692e-04 9.614945e-04 2.628466e-03 1.912818e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0031p000 ...
+Done!
+Star #4: 
+1 0 1 1 1.668924e-09 1.387083e-05 3.999987e+00 1.686179e-01 9.646406e-04 9.569681e-04 3.027177e-03 1.962818e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0031p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 3.600000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 0
+rho= 1.180000e+00 isScalarized= 1
+rhoBegin= 6.900000e-01 phiCentral= 1.179590e-03
+rho= 7.145000e-01 isScalarized= 0
+rho= 7.390000e-01 isScalarized= 0
+rho= 7.635000e-01 isScalarized= 0
+rho= 7.880000e-01 isScalarized= 0
+rho= 8.125000e-01 isScalarized= 0
+rho= 8.370000e-01 isScalarized= 0
+rho= 8.615000e-01 isScalarized= 0
+rho= 8.860000e-01 isScalarized= 0
+rho= 9.105000e-01 isScalarized= 0
+rho= 9.350000e-01 isScalarized= 0
+rho= 9.595000e-01 isScalarized= 0
+rho= 9.840000e-01 isScalarized= 0
+rho= 1.008500e+00 isScalarized= 0
+rho= 1.033000e+00 isScalarized= 0
+rho= 1.057500e+00 isScalarized= 0
+rho= 1.082000e+00 isScalarized= 0
+rho= 1.106500e+00 isScalarized= 0
+rho= 1.131000e+00 isScalarized= 0
+rho= 1.155500e+00 isScalarized= 1
+rhoBegin= 1.131000e+00 phiCentral= 2.978484e-04
+rho= 1.132225e+00 isScalarized= 0
+rho= 1.133450e+00 isScalarized= 0
+rho= 1.134675e+00 isScalarized= 0
+rho= 1.135900e+00 isScalarized= 0
+rho= 1.137125e+00 isScalarized= 0
+rho= 1.138350e+00 isScalarized= 0
+rho= 1.139575e+00 isScalarized= 0
+rho= 1.140800e+00 isScalarized= 0
+rho= 1.142025e+00 isScalarized= 0
+rho= 1.143250e+00 isScalarized= 0
+rho= 1.144475e+00 isScalarized= 0
+rho= 1.145700e+00 isScalarized= 0
+rho= 1.146925e+00 isScalarized= 0
+rho= 1.148150e+00 isScalarized= 0
+rho= 1.149375e+00 isScalarized= 0
+rho= 1.150600e+00 isScalarized= 0
+rho= 1.151825e+00 isScalarized= 0
+rho= 1.153050e+00 isScalarized= 0
+rho= 1.154275e+00 isScalarized= 1
+rhoBegin= 1.153050e+00 phiCentral= 1.526278e-04
+rho= 1.153111e+00 isScalarized= 0
+rho= 1.153172e+00 isScalarized= 0
+rho= 1.153234e+00 isScalarized= 0
+rho= 1.153295e+00 isScalarized= 0
+rho= 1.153356e+00 isScalarized= 0
+rho= 1.153417e+00 isScalarized= 0
+rho= 1.153479e+00 isScalarized= 0
+rho= 1.153540e+00 isScalarized= 0
+rho= 1.153601e+00 isScalarized= 0
+rho= 1.153662e+00 isScalarized= 0
+rho= 1.153724e+00 isScalarized= 0
+rho= 1.153785e+00 isScalarized= 0
+rho= 1.153846e+00 isScalarized= 1
+rhoBegin= 1.153785e+00 phiCentral= 1.980902e-05
+rho= 1.153788e+00 isScalarized= 0
+rho= 1.153791e+00 isScalarized= 0
+rho= 1.153794e+00 isScalarized= 0
+rho= 1.153797e+00 isScalarized= 0
+rho= 1.153800e+00 isScalarized= 0
+rho= 1.153803e+00 isScalarized= 0
+rho= 1.153806e+00 isScalarized= 0
+rho= 1.153809e+00 isScalarized= 0
+rho= 1.153813e+00 isScalarized= 0
+rho= 1.153816e+00 isScalarized= 0
+rho= 1.153819e+00 isScalarized= 0
+rho= 1.153822e+00 isScalarized= 0
+rho= 1.153825e+00 isScalarized= 0
+rho= 1.153828e+00 isScalarized= 0
+rho= 1.153831e+00 isScalarized= 0
+rho= 1.153834e+00 isScalarized= 0
+rho= 1.153837e+00 isScalarized= 0
+rho= 1.153840e+00 isScalarized= 1
+rhoBegin= 1.153837e+00 phiCentral= 8.073989e-06
+rho= 1.153837e+00 isScalarized= 0
+rho= 1.153837e+00 isScalarized= 0
+rho= 1.153838e+00 isScalarized= 0
+rho= 1.153838e+00 isScalarized= 0
+rho= 1.153838e+00 isScalarized= 0
+rho= 1.153838e+00 isScalarized= 0
+rho= 1.153838e+00 isScalarized= 0
+rho= 1.153838e+00 isScalarized= 0
+rho= 1.153838e+00 isScalarized= 0
+rho= 1.153839e+00 isScalarized= 0
+rho= 1.153839e+00 isScalarized= 0
+rho= 1.153839e+00 isScalarized= 0
+rho= 1.153839e+00 isScalarized= 1
+rhoBegin= 1.153839e+00 phiCentral= 2.815645e-06
+Star #0: 
+1 0 1 1 1.509412e-12 1.542642e-08 3.999987e+00 1.990916e-01 9.752042e-04 9.686279e-04 2.815644e-06 1.153839e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0036p000 ...
+Done!
+Star #1: 
+1 0 1 1 8.826464e-10 8.791895e-06 3.999987e+00 1.968334e-01 9.675774e-04 9.610075e-04 1.627538e-03 1.203839e+00 16
+Appending parameters to firstStarsParam_eos_5_beta_0036p000 ...
+Done!
+Star #2: 
+1 0 1 1 1.244475e-09 1.221665e-05 3.999987e+00 1.946702e-01 9.603806e-04 9.538153e-04 2.292383e-03 1.253839e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0036p000 ...
+Done!
+Star #3: 
+1 0 1 1 1.531005e-09 1.471082e-05 3.999987e+00 1.925951e-01 9.535753e-04 9.470129e-04 2.796571e-03 1.303839e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0036p000 ...
+Done!
+Star #4: 
+1 0 1 1 1.817720e-09 1.671136e-05 3.999987e+00 1.906002e-01 9.471275e-04 9.405667e-04 3.216894e-03 1.353839e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0036p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 4.100000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 0
+rho= 1.180000e+00 isScalarized= 1
+rhoBegin= 6.900000e-01 phiCentral= 4.578204e-03
+rho= 7.145000e-01 isScalarized= 0
+rho= 7.390000e-01 isScalarized= 0
+rho= 7.635000e-01 isScalarized= 0
+rho= 7.880000e-01 isScalarized= 0
+rho= 8.125000e-01 isScalarized= 1
+rhoBegin= 7.880000e-01 phiCentral= 8.503478e-04
+rho= 7.892250e-01 isScalarized= 0
+rho= 7.904500e-01 isScalarized= 0
+rho= 7.916750e-01 isScalarized= 0
+rho= 7.929000e-01 isScalarized= 0
+rho= 7.941250e-01 isScalarized= 0
+rho= 7.953500e-01 isScalarized= 0
+rho= 7.965750e-01 isScalarized= 0
+rho= 7.978000e-01 isScalarized= 0
+rho= 7.990250e-01 isScalarized= 0
+rho= 8.002500e-01 isScalarized= 0
+rho= 8.014750e-01 isScalarized= 1
+rhoBegin= 8.002500e-01 phiCentral= 2.574527e-04
+rho= 8.003113e-01 isScalarized= 0
+rho= 8.003725e-01 isScalarized= 1
+rhoBegin= 8.003113e-01 phiCentral= 2.020336e-05
+rho= 8.003143e-01 isScalarized= 0
+rho= 8.003174e-01 isScalarized= 0
+rho= 8.003204e-01 isScalarized= 0
+rho= 8.003235e-01 isScalarized= 0
+rho= 8.003266e-01 isScalarized= 0
+rho= 8.003296e-01 isScalarized= 0
+rho= 8.003327e-01 isScalarized= 0
+rho= 8.003358e-01 isScalarized= 0
+rho= 8.003388e-01 isScalarized= 0
+rho= 8.003419e-01 isScalarized= 0
+rho= 8.003449e-01 isScalarized= 0
+rho= 8.003480e-01 isScalarized= 0
+rho= 8.003511e-01 isScalarized= 0
+rho= 8.003541e-01 isScalarized= 0
+rho= 8.003572e-01 isScalarized= 0
+rho= 8.003603e-01 isScalarized= 0
+rho= 8.003633e-01 isScalarized= 0
+rho= 8.003664e-01 isScalarized= 1
+rhoBegin= 8.003633e-01 phiCentral= 6.489416e-06
+rho= 8.003635e-01 isScalarized= 0
+rho= 8.003636e-01 isScalarized= 0
+rho= 8.003638e-01 isScalarized= 0
+rho= 8.003639e-01 isScalarized= 0
+rho= 8.003641e-01 isScalarized= 0
+rho= 8.003642e-01 isScalarized= 0
+rho= 8.003644e-01 isScalarized= 0
+rho= 8.003645e-01 isScalarized= 0
+rho= 8.003647e-01 isScalarized= 0
+rho= 8.003648e-01 isScalarized= 0
+rho= 8.003650e-01 isScalarized= 0
+rho= 8.003652e-01 isScalarized= 0
+rho= 8.003653e-01 isScalarized= 0
+rho= 8.003655e-01 isScalarized= 0
+rho= 8.003656e-01 isScalarized= 0
+rho= 8.003658e-01 isScalarized= 1
+rhoBegin= 8.003656e-01 phiCentral= 2.346509e-06
+Star #0: 
+1 0 1 1 1.264375e-12 1.453987e-08 3.999987e+00 2.240590e-01 9.671728e-04 9.614313e-04 2.346510e-06 8.003658e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0041p000 ...
+Done!
+Star #1: 
+1 0 1 1 9.431029e-10 1.043516e-05 3.999987e+00 2.204354e-01 9.563698e-04 9.506364e-04 1.718428e-03 8.503658e-01 16
+Appending parameters to firstStarsParam_eos_5_beta_0041p000 ...
+Done!
+Star #2: 
+1 0 1 1 1.358968e-09 1.439730e-05 3.999987e+00 2.170245e-01 9.464215e-04 9.406929e-04 2.416450e-03 9.003658e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0041p000 ...
+Done!
+Star #3: 
+1 0 1 1 1.659236e-09 1.722425e-05 3.999987e+00 2.138081e-01 9.372221e-04 9.314957e-04 2.943442e-03 9.503658e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0041p000 ...
+Done!
+Star #4: 
+1 0 1 1 1.976853e-09 1.945024e-05 3.999987e+00 2.107595e-01 9.286837e-04 9.229571e-04 3.381034e-03 1.000366e+00 6
+Appending parameters to firstStarsParam_eos_5_beta_0041p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 4.600000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 1
+rhoBegin= 2.000000e-01 phiCentral= 2.642829e-03
+rho= 2.245000e-01 isScalarized= 0
+rho= 2.490000e-01 isScalarized= 0
+rho= 2.735000e-01 isScalarized= 0
+rho= 2.980000e-01 isScalarized= 0
+rho= 3.225000e-01 isScalarized= 0
+rho= 3.470000e-01 isScalarized= 0
+rho= 3.715000e-01 isScalarized= 0
+rho= 3.960000e-01 isScalarized= 0
+rho= 4.205000e-01 isScalarized= 0
+rho= 4.450000e-01 isScalarized= 0
+rho= 4.695000e-01 isScalarized= 0
+rho= 4.940000e-01 isScalarized= 0
+rho= 5.185000e-01 isScalarized= 0
+rho= 5.430000e-01 isScalarized= 0
+rho= 5.675000e-01 isScalarized= 0
+rho= 5.920000e-01 isScalarized= 1
+rhoBegin= 5.675000e-01 phiCentral= 8.765969e-04
+rho= 5.687250e-01 isScalarized= 0
+rho= 5.699500e-01 isScalarized= 0
+rho= 5.711750e-01 isScalarized= 0
+rho= 5.724000e-01 isScalarized= 0
+rho= 5.736250e-01 isScalarized= 0
+rho= 5.748500e-01 isScalarized= 0
+rho= 5.760750e-01 isScalarized= 0
+rho= 5.773000e-01 isScalarized= 0
+rho= 5.785250e-01 isScalarized= 0
+rho= 5.797500e-01 isScalarized= 0
+rho= 5.809750e-01 isScalarized= 1
+rhoBegin= 5.797500e-01 phiCentral= 2.122352e-04
+rho= 5.798113e-01 isScalarized= 0
+rho= 5.798725e-01 isScalarized= 0
+rho= 5.799338e-01 isScalarized= 0
+rho= 5.799950e-01 isScalarized= 0
+rho= 5.800563e-01 isScalarized= 0
+rho= 5.801175e-01 isScalarized= 0
+rho= 5.801788e-01 isScalarized= 0
+rho= 5.802400e-01 isScalarized= 0
+rho= 5.803013e-01 isScalarized= 1
+rhoBegin= 5.802400e-01 phiCentral= 2.580608e-05
+rho= 5.802431e-01 isScalarized= 0
+rho= 5.802461e-01 isScalarized= 0
+rho= 5.802492e-01 isScalarized= 0
+rho= 5.802523e-01 isScalarized= 0
+rho= 5.802553e-01 isScalarized= 0
+rho= 5.802584e-01 isScalarized= 0
+rho= 5.802614e-01 isScalarized= 0
+rho= 5.802645e-01 isScalarized= 0
+rho= 5.802676e-01 isScalarized= 0
+rho= 5.802706e-01 isScalarized= 0
+rho= 5.802737e-01 isScalarized= 0
+rho= 5.802768e-01 isScalarized= 0
+rho= 5.802798e-01 isScalarized= 0
+rho= 5.802829e-01 isScalarized= 0
+rho= 5.802859e-01 isScalarized= 0
+rho= 5.802890e-01 isScalarized= 0
+rho= 5.802921e-01 isScalarized= 1
+rhoBegin= 5.802890e-01 phiCentral= 7.788693e-06
+rho= 5.802892e-01 isScalarized= 0
+rho= 5.802893e-01 isScalarized= 0
+rho= 5.802895e-01 isScalarized= 0
+rho= 5.802896e-01 isScalarized= 0
+rho= 5.802898e-01 isScalarized= 0
+rho= 5.802899e-01 isScalarized= 0
+rho= 5.802901e-01 isScalarized= 0
+rho= 5.802902e-01 isScalarized= 0
+rho= 5.802904e-01 isScalarized= 0
+rho= 5.802905e-01 isScalarized= 0
+rho= 5.802907e-01 isScalarized= 0
+rho= 5.802908e-01 isScalarized= 0
+rho= 5.802910e-01 isScalarized= 0
+rho= 5.802911e-01 isScalarized= 0
+rho= 5.802913e-01 isScalarized= 1
+rhoBegin= 5.802911e-01 phiCentral= 3.197295e-06
+Star #0: 
+1 0 1 1 1.730185e-12 2.207149e-08 3.999987e+00 2.485671e-01 9.597232e-04 9.546315e-04 3.197297e-06 5.802913e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0046p000 ...
+Done!
+Star #1: 
+1 0 1 1 9.974369e-10 1.209037e-05 3.999987e+00 2.430960e-01 9.451211e-04 9.400390e-04 1.800365e-03 6.302913e-01 16
+Appending parameters to firstStarsParam_eos_5_beta_0046p000 ...
+Done!
+Star #2: 
+1 0 1 1 1.434381e-09 1.654243e-05 3.999987e+00 2.380555e-01 9.320611e-04 9.269835e-04 2.526790e-03 6.802913e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0046p000 ...
+Done!
+Star #3: 
+1 0 1 1 1.762062e-09 1.964517e-05 3.999987e+00 2.333801e-01 9.202935e-04 9.152163e-04 3.072466e-03 7.302913e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0046p000 ...
+Done!
+Star #4: 
+1 0 1 1 2.118658e-09 2.203864e-05 3.999987e+00 2.290374e-01 9.096224e-04 9.045422e-04 3.523610e-03 7.802913e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0046p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 5.100000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 1
+rhoBegin= 2.000000e-01 phiCentral= 4.077762e-03
+rho= 2.245000e-01 isScalarized= 0
+rho= 2.490000e-01 isScalarized= 0
+rho= 2.735000e-01 isScalarized= 0
+rho= 2.980000e-01 isScalarized= 0
+rho= 3.225000e-01 isScalarized= 0
+rho= 3.470000e-01 isScalarized= 0
+rho= 3.715000e-01 isScalarized= 0
+rho= 3.960000e-01 isScalarized= 0
+rho= 4.205000e-01 isScalarized= 0
+rho= 4.450000e-01 isScalarized= 1
+rhoBegin= 4.205000e-01 phiCentral= 8.177715e-04
+rho= 4.217250e-01 isScalarized= 0
+rho= 4.229500e-01 isScalarized= 0
+rho= 4.241750e-01 isScalarized= 0
+rho= 4.254000e-01 isScalarized= 0
+rho= 4.266250e-01 isScalarized= 0
+rho= 4.278500e-01 isScalarized= 0
+rho= 4.290750e-01 isScalarized= 0
+rho= 4.303000e-01 isScalarized= 0
+rho= 4.315250e-01 isScalarized= 0
+rho= 4.327500e-01 isScalarized= 0
+rho= 4.339750e-01 isScalarized= 0
+rho= 4.352000e-01 isScalarized= 0
+rho= 4.364250e-01 isScalarized= 1
+rhoBegin= 4.352000e-01 phiCentral= 2.362398e-04
+rho= 4.352612e-01 isScalarized= 0
+rho= 4.353225e-01 isScalarized= 0
+rho= 4.353837e-01 isScalarized= 0
+rho= 4.354450e-01 isScalarized= 0
+rho= 4.355062e-01 isScalarized= 0
+rho= 4.355675e-01 isScalarized= 0
+rho= 4.356287e-01 isScalarized= 0
+rho= 4.356900e-01 isScalarized= 1
+rhoBegin= 4.356287e-01 phiCentral= 5.528564e-05
+rho= 4.356318e-01 isScalarized= 0
+rho= 4.356349e-01 isScalarized= 0
+rho= 4.356379e-01 isScalarized= 0
+rho= 4.356410e-01 isScalarized= 0
+rho= 4.356441e-01 isScalarized= 0
+rho= 4.356471e-01 isScalarized= 0
+rho= 4.356502e-01 isScalarized= 1
+rhoBegin= 4.356471e-01 phiCentral= 1.407429e-05
+rho= 4.356473e-01 isScalarized= 0
+rho= 4.356474e-01 isScalarized= 0
+rho= 4.356476e-01 isScalarized= 1
+rhoBegin= 4.356474e-01 phiCentral= 3.344488e-06
+Star #0: 
+1 0 1 1 1.816512e-12 2.541947e-08 3.999987e+00 2.726616e-01 9.528178e-04 9.482457e-04 3.344487e-06 4.356476e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0051p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.049192e-09 1.374132e-05 3.999987e+00 2.647895e-01 9.338058e-04 9.292447e-04 1.874717e-03 4.856476e-01 16
+Appending parameters to firstStarsParam_eos_5_beta_0051p000 ...
+Done!
+Star #2: 
+1 0 1 1 1.528387e-09 1.862482e-05 3.999987e+00 2.577098e-01 9.173685e-04 9.128108e-04 2.625353e-03 5.356476e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0051p000 ...
+Done!
+Star #3: 
+1 0 1 1 1.860142e-09 2.194068e-05 3.999987e+00 2.512872e-01 9.029822e-04 8.984219e-04 3.186124e-03 5.856476e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0051p000 ...
+Done!
+Star #4: 
+1 0 1 1 2.176719e-09 2.444289e-05 3.999987e+00 2.454127e-01 8.902626e-04 8.856951e-04 3.647652e-03 6.356476e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0051p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 5.600000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 1
+rhoBegin= 2.000000e-01 phiCentral= 4.857138e-03
+rho= 2.245000e-01 isScalarized= 0
+rho= 2.490000e-01 isScalarized= 0
+rho= 2.735000e-01 isScalarized= 0
+rho= 2.980000e-01 isScalarized= 0
+rho= 3.225000e-01 isScalarized= 0
+rho= 3.470000e-01 isScalarized= 1
+rhoBegin= 3.225000e-01 phiCentral= 9.041002e-04
+rho= 3.237250e-01 isScalarized= 0
+rho= 3.249500e-01 isScalarized= 0
+rho= 3.261750e-01 isScalarized= 0
+rho= 3.274000e-01 isScalarized= 0
+rho= 3.286250e-01 isScalarized= 0
+rho= 3.298500e-01 isScalarized= 0
+rho= 3.310750e-01 isScalarized= 0
+rho= 3.323000e-01 isScalarized= 0
+rho= 3.335250e-01 isScalarized= 0
+rho= 3.347500e-01 isScalarized= 0
+rho= 3.359750e-01 isScalarized= 0
+rho= 3.372000e-01 isScalarized= 1
+rhoBegin= 3.359750e-01 phiCentral= 2.498502e-04
+rho= 3.360362e-01 isScalarized= 0
+rho= 3.360975e-01 isScalarized= 0
+rho= 3.361587e-01 isScalarized= 0
+rho= 3.362200e-01 isScalarized= 0
+rho= 3.362812e-01 isScalarized= 0
+rho= 3.363425e-01 isScalarized= 0
+rho= 3.364037e-01 isScalarized= 1
+rhoBegin= 3.363425e-01 phiCentral= 2.676427e-05
+rho= 3.363456e-01 isScalarized= 0
+rho= 3.363486e-01 isScalarized= 0
+rho= 3.363517e-01 isScalarized= 0
+rho= 3.363547e-01 isScalarized= 0
+rho= 3.363578e-01 isScalarized= 0
+rho= 3.363609e-01 isScalarized= 0
+rho= 3.363639e-01 isScalarized= 0
+rho= 3.363670e-01 isScalarized= 0
+rho= 3.363701e-01 isScalarized= 0
+rho= 3.363731e-01 isScalarized= 0
+rho= 3.363762e-01 isScalarized= 0
+rho= 3.363792e-01 isScalarized= 0
+rho= 3.363823e-01 isScalarized= 0
+rho= 3.363854e-01 isScalarized= 0
+rho= 3.363884e-01 isScalarized= 0
+rho= 3.363915e-01 isScalarized= 0
+rho= 3.363946e-01 isScalarized= 1
+rhoBegin= 3.363915e-01 phiCentral= 1.993597e-06
+rho= 3.363917e-01 isScalarized= 0
+rho= 3.363918e-01 isScalarized= 0
+rho= 3.363920e-01 isScalarized= 0
+rho= 3.363921e-01 isScalarized= 0
+rho= 3.363923e-01 isScalarized= 0
+rho= 3.363924e-01 isScalarized= 0
+rho= 3.363926e-01 isScalarized= 0
+rho= 3.363927e-01 isScalarized= 0
+rho= 3.363929e-01 isScalarized= 0
+rho= 3.363930e-01 isScalarized= 0
+rho= 3.363932e-01 isScalarized= 0
+rho= 3.363933e-01 isScalarized= 0
+rho= 3.363935e-01 isScalarized= 0
+rho= 3.363936e-01 isScalarized= 0
+rho= 3.363938e-01 isScalarized= 0
+rho= 3.363939e-01 isScalarized= 0
+rho= 3.363941e-01 isScalarized= 0
+rho= 3.363943e-01 isScalarized= 0
+rho= 3.363944e-01 isScalarized= 0
+rho= 3.363946e-01 isScalarized= 1
+rhoBegin= 3.363944e-01 phiCentral= 1.993598e-06
+Star #0: 
+1 0 1 1 1.086344e-12 1.652504e-08 3.999987e+00 2.963826e-01 9.464065e-04 9.422590e-04 1.993597e-06 3.363946e-01 7
+Appending parameters to firstStarsParam_eos_5_beta_0056p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.106897e-09 1.537346e-05 3.999987e+00 2.854905e-01 9.224030e-04 9.182677e-04 1.942492e-03 3.863946e-01 17
+Appending parameters to firstStarsParam_eos_5_beta_0056p000 ...
+Done!
+Star #2: 
+1 0 1 1 1.595966e-09 2.062205e-05 3.999987e+00 2.759608e-01 9.024316e-04 8.982975e-04 2.713614e-03 4.363946e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0056p000 ...
+Done!
+Star #3: 
+1 0 1 1 2.072180e-09 2.408820e-05 3.999987e+00 2.675054e-01 8.854970e-04 8.813562e-04 3.286365e-03 4.863946e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0056p000 ...
+Done!
+Star #4: 
+1 0 1 1 2.429884e-09 2.664510e-05 3.999987e+00 2.599136e-01 8.709198e-04 8.667664e-04 3.755607e-03 5.363946e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0056p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 6.100000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 1
+rhoBegin= 2.000000e-01 phiCentral= 5.361590e-03
+rho= 2.245000e-01 isScalarized= 0
+rho= 2.490000e-01 isScalarized= 0
+rho= 2.735000e-01 isScalarized= 1
+rhoBegin= 2.490000e-01 phiCentral= 7.949823e-04
+rho= 2.502250e-01 isScalarized= 0
+rho= 2.514500e-01 isScalarized= 0
+rho= 2.526750e-01 isScalarized= 0
+rho= 2.539000e-01 isScalarized= 0
+rho= 2.551250e-01 isScalarized= 0
+rho= 2.563500e-01 isScalarized= 0
+rho= 2.575750e-01 isScalarized= 0
+rho= 2.588000e-01 isScalarized= 0
+rho= 2.600250e-01 isScalarized= 0
+rho= 2.612500e-01 isScalarized= 0
+rho= 2.624750e-01 isScalarized= 0
+rho= 2.637000e-01 isScalarized= 0
+rho= 2.649250e-01 isScalarized= 0
+rho= 2.661500e-01 isScalarized= 1
+rhoBegin= 2.649250e-01 phiCentral= 1.567881e-04
+rho= 2.649862e-01 isScalarized= 0
+rho= 2.650475e-01 isScalarized= 0
+rho= 2.651087e-01 isScalarized= 0
+rho= 2.651700e-01 isScalarized= 0
+rho= 2.652312e-01 isScalarized= 0
+rho= 2.652925e-01 isScalarized= 0
+rho= 2.653537e-01 isScalarized= 0
+rho= 2.654150e-01 isScalarized= 0
+rho= 2.654762e-01 isScalarized= 0
+rho= 2.655375e-01 isScalarized= 0
+rho= 2.655987e-01 isScalarized= 0
+rho= 2.656600e-01 isScalarized= 0
+rho= 2.657212e-01 isScalarized= 0
+rho= 2.657825e-01 isScalarized= 0
+rho= 2.658437e-01 isScalarized= 0
+rho= 2.659050e-01 isScalarized= 1
+rhoBegin= 2.658437e-01 phiCentral= 6.500490e-05
+rho= 2.658468e-01 isScalarized= 0
+rho= 2.658499e-01 isScalarized= 0
+rho= 2.658529e-01 isScalarized= 0
+rho= 2.658560e-01 isScalarized= 1
+rhoBegin= 2.658529e-01 phiCentral= 1.238558e-05
+rho= 2.658531e-01 isScalarized= 0
+rho= 2.658532e-01 isScalarized= 0
+rho= 2.658534e-01 isScalarized= 0
+rho= 2.658535e-01 isScalarized= 0
+rho= 2.658537e-01 isScalarized= 0
+rho= 2.658539e-01 isScalarized= 0
+rho= 2.658540e-01 isScalarized= 0
+rho= 2.658542e-01 isScalarized= 0
+rho= 2.658543e-01 isScalarized= 1
+rhoBegin= 2.658542e-01 phiCentral= 3.662567e-06
+Star #0: 
+1 0 1 1 2.001656e-12 3.285280e-08 3.999987e+00 3.197553e-01 9.404386e-04 9.366442e-04 3.662565e-06 2.658543e-01 7
+Appending parameters to firstStarsParam_eos_5_beta_0061p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.147728e-09 1.697390e-05 3.999987e+00 3.051735e-01 9.109056e-04 9.071243e-04 2.004468e-03 3.158543e-01 16
+Appending parameters to firstStarsParam_eos_5_beta_0061p000 ...
+Done!
+Star #2: 
+1 0 1 1 1.603613e-09 2.251721e-05 3.999987e+00 2.927922e-01 8.873572e-04 8.835739e-04 2.792755e-03 3.658543e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0061p000 ...
+Done!
+Star #3: 
+1 0 1 1 1.994706e-09 2.607255e-05 3.999987e+00 2.820591e-01 8.680510e-04 8.642556e-04 3.374795e-03 4.158543e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0061p000 ...
+Done!
+Star #4: 
+1 0 1 1 2.271266e-09 2.863651e-05 3.999987e+00 2.726068e-01 8.518858e-04 8.480713e-04 3.849536e-03 4.658543e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0061p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 6.600000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+rho= 6.900000e-01 isScalarized= 1
+rhoBegin= 2.000000e-01 phiCentral= 5.713274e-03
+rho= 2.245000e-01 isScalarized= 1
+rhoBegin= 2.000000e-01 phiCentral= 9.490034e-04
+rho= 2.012250e-01 isScalarized= 0
+rho= 2.024500e-01 isScalarized= 0
+rho= 2.036750e-01 isScalarized= 0
+rho= 2.049000e-01 isScalarized= 0
+rho= 2.061250e-01 isScalarized= 0
+rho= 2.073500e-01 isScalarized= 0
+rho= 2.085750e-01 isScalarized= 0
+rho= 2.098000e-01 isScalarized= 0
+rho= 2.110250e-01 isScalarized= 0
+rho= 2.122500e-01 isScalarized= 0
+rho= 2.134750e-01 isScalarized= 0
+rho= 2.147000e-01 isScalarized= 1
+rhoBegin= 2.134750e-01 phiCentral= 2.026199e-04
+rho= 2.135363e-01 isScalarized= 0
+rho= 2.135975e-01 isScalarized= 0
+rho= 2.136588e-01 isScalarized= 0
+rho= 2.137200e-01 isScalarized= 0
+rho= 2.137813e-01 isScalarized= 0
+rho= 2.138425e-01 isScalarized= 0
+rho= 2.139038e-01 isScalarized= 0
+rho= 2.139650e-01 isScalarized= 0
+rho= 2.140263e-01 isScalarized= 0
+rho= 2.140875e-01 isScalarized= 0
+rho= 2.141488e-01 isScalarized= 0
+rho= 2.142100e-01 isScalarized= 0
+rho= 2.142713e-01 isScalarized= 1
+rhoBegin= 2.142100e-01 phiCentral= 5.578241e-05
+rho= 2.142131e-01 isScalarized= 0
+rho= 2.142161e-01 isScalarized= 0
+rho= 2.142192e-01 isScalarized= 0
+rho= 2.142223e-01 isScalarized= 0
+rho= 2.142253e-01 isScalarized= 0
+rho= 2.142284e-01 isScalarized= 0
+rho= 2.142314e-01 isScalarized= 0
+rho= 2.142345e-01 isScalarized= 0
+rho= 2.142376e-01 isScalarized= 1
+rhoBegin= 2.142345e-01 phiCentral= 1.136686e-05
+rho= 2.142347e-01 isScalarized= 0
+rho= 2.142348e-01 isScalarized= 0
+rho= 2.142350e-01 isScalarized= 0
+rho= 2.142351e-01 isScalarized= 0
+rho= 2.142353e-01 isScalarized= 0
+rho= 2.142354e-01 isScalarized= 0
+rho= 2.142356e-01 isScalarized= 0
+rho= 2.142357e-01 isScalarized= 0
+rho= 2.142359e-01 isScalarized= 0
+rho= 2.142360e-01 isScalarized= 0
+rho= 2.142362e-01 isScalarized= 1
+rhoBegin= 2.142360e-01 phiCentral= 2.681683e-06
+Star #0: 
+1 0 1 1 1.469522e-12 2.586097e-08 3.999987e+00 3.428072e-01 9.348672e-04 9.313712e-04 2.681684e-06 2.142362e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0066p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.190682e-09 1.853159e-05 3.999987e+00 3.238167e-01 8.993229e-04 8.958402e-04 2.061247e-03 2.642362e-01 17
+Appending parameters to firstStarsParam_eos_5_beta_0066p000 ...
+Done!
+Star #2: 
+1 0 1 1 1.760941e-09 2.429946e-05 3.999987e+00 3.082072e-01 8.722644e-04 8.687754e-04 2.863754e-03 3.142362e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0066p000 ...
+Done!
+Star #3: 
+1 0 1 1 2.050889e-09 2.788978e-05 3.999987e+00 2.949987e-01 8.508470e-04 8.473393e-04 3.452795e-03 3.642362e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0066p000 ...
+Done!
+Star #4: 
+1 0 1 1 2.620111e-09 3.042377e-05 3.999987e+00 2.835866e-01 8.334101e-04 8.298759e-04 3.931234e-03 4.142362e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0066p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 7.100000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+Star is scalarized at rho1= 2.000000e-01
+Star #0: 
+1 0 1 1 8.772230e-10 1.476985e-05 3.999987e+00 3.529676e-01 9.072443e-04 9.040140e-04 1.496450e-03 2.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0071p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.547392e-09 2.337992e-05 3.999987e+00 3.315231e-01 8.716883e-04 8.684570e-04 2.552222e-03 2.500000e-01 8
+Appending parameters to firstStarsParam_eos_5_beta_0071p000 ...
+Done!
+Star #2: 
+1 0 1 1 2.073345e-09 2.789953e-05 3.999987e+00 3.141292e-01 8.451906e-04 8.419396e-04 3.236601e-03 3.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0071p000 ...
+Done!
+Star #3: 
+1 0 1 1 2.261991e-09 3.085159e-05 3.999987e+00 2.995684e-01 8.245684e-04 8.212864e-04 3.767768e-03 3.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0071p000 ...
+Done!
+Star #4: 
+1 0 1 1 2.999284e-09 3.297505e-05 3.999987e+00 2.871030e-01 8.080149e-04 8.046952e-04 4.209827e-03 4.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0071p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 7.600000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+Star is scalarized at rho1= 2.000000e-01
+Star #0: 
+1 0 1 1 1.428676e-09 2.215131e-05 3.999987e+00 3.558227e-01 8.727823e-04 8.697736e-04 2.243864e-03 2.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0076p000 ...
+Done!
+Star #1: 
+1 0 1 1 1.854646e-09 2.785660e-05 3.999987e+00 3.332224e-01 8.401932e-04 8.371643e-04 3.040164e-03 2.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0076p000 ...
+Done!
+Star #2: 
+1 0 1 1 2.554931e-09 3.126293e-05 3.999987e+00 3.149648e-01 8.161027e-04 8.130384e-04 3.625582e-03 3.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0076p000 ...
+Done!
+Star #3: 
+1 0 1 1 2.444705e-09 3.358567e-05 3.999987e+00 2.997487e-01 7.975010e-04 7.943926e-04 4.100166e-03 3.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0076p000 ...
+Done!
+Star #4: 
+1 0 1 1 2.860761e-09 3.529532e-05 3.999987e+00 2.867780e-01 7.826822e-04 7.795246e-04 4.504259e-03 4.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0076p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 8.100000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+Star is scalarized at rho1= 2.000000e-01
+Star #0: 
+1 0 1 1 1.816620e-09 2.665469e-05 3.999987e+00 3.577347e-01 8.428930e-04 8.400647e-04 2.699462e-03 2.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0081p000 ...
+Done!
+Star #1: 
+1 0 1 1 2.265046e-09 3.099401e-05 3.999987e+00 3.340707e-01 8.130533e-04 8.101880e-04 3.381582e-03 2.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0081p000 ...
+Done!
+Star #2: 
+1 0 1 1 2.626017e-09 3.372215e-05 3.999987e+00 3.150466e-01 7.911905e-04 7.882761e-04 3.909513e-03 3.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0081p000 ...
+Done!
+Star #3: 
+1 0 1 1 3.342821e-09 3.563101e-05 3.999987e+00 2.992671e-01 7.744516e-04 7.714815e-04 4.347740e-03 3.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0081p000 ...
+Done!
+Star #4: 
+1 0 1 1 3.745936e-09 3.705412e-05 3.999987e+00 2.858813e-01 7.612251e-04 7.581957e-04 4.726082e-03 4.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0081p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 8.600000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+Star is scalarized at rho1= 2.000000e-01
+Star #0: 
+1 0 1 1 2.168190e-09 2.983035e-05 3.999987e+00 3.588364e-01 8.168605e-04 8.141801e-04 3.020346e-03 2.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0086p000 ...
+Done!
+Star #1: 
+1 0 1 1 2.301981e-09 3.333089e-05 3.999987e+00 3.342112e-01 7.895787e-04 7.868465e-04 3.635507e-03 2.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0086p000 ...
+Done!
+Star #2: 
+1 0 1 1 2.610585e-09 3.559688e-05 3.999987e+00 3.145172e-01 7.697803e-04 7.669869e-04 4.125361e-03 3.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0086p000 ...
+Done!
+Star #3: 
+1 0 1 1 2.769919e-09 3.720532e-05 3.999987e+00 2.982790e-01 7.547592e-04 7.518997e-04 4.538089e-03 3.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0086p000 ...
+Done!
+Star #4: 
+1 0 1 1 3.589627e-09 3.841951e-05 3.999987e+00 2.845629e-01 7.429920e-04 7.400644e-04 4.897762e-03 4.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0086p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 9.100000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+Star is scalarized at rho1= 2.000000e-01
+Star #0: 
+1 0 1 1 2.421341e-09 3.221456e-05 3.999987e+00 3.592473e-01 7.941097e-04 7.915514e-04 3.260891e-03 2.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0091p000 ...
+Done!
+Star #1: 
+1 0 1 1 2.592657e-09 3.513927e-05 3.999987e+00 3.337735e-01 7.692114e-04 7.665880e-04 3.831389e-03 2.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0091p000 ...
+Done!
+Star #2: 
+1 0 1 1 2.628156e-09 3.706747e-05 3.999987e+00 3.135318e-01 7.513259e-04 7.486304e-04 4.294008e-03 3.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0091p000 ...
+Done!
+Star #3: 
+1 0 1 1 3.604789e-09 3.845513e-05 3.999987e+00 2.969161e-01 7.378858e-04 7.351153e-04 4.687826e-03 3.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0091p000 ...
+Done!
+Star #4: 
+1 0 1 1 3.465931e-09 3.950508e-05 3.999987e+00 2.829528e-01 7.274540e-04 7.246074e-04 5.033331e-03 4.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0091p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 9.600000e+01 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+Star is scalarized at rho1= 2.000000e-01
+Star #0: 
+1 0 1 1 2.344877e-09 3.407150e-05 3.999987e+00 3.590785e-01 7.741709e-04 7.717138e-04 3.447949e-03 2.000000e-01 7
+Appending parameters to firstStarsParam_eos_5_beta_0096p000 ...
+Done!
+Star #1: 
+1 0 1 1 2.514655e-09 3.657345e-05 3.999987e+00 3.328828e-01 7.514939e-04 7.489599e-04 3.986324e-03 2.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0096p000 ...
+Done!
+Star #2: 
+1 0 1 1 3.627076e-09 3.824942e-05 3.999987e+00 3.121861e-01 7.353783e-04 7.327626e-04 4.428457e-03 3.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0096p000 ...
+Done!
+Star #3: 
+1 0 1 1 3.798403e-09 3.946044e-05 3.999987e+00 2.952892e-01 7.233915e-04 7.206926e-04 4.807681e-03 3.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0096p000 ...
+Done!
+Star #4: 
+1 0 1 1 3.492951e-09 4.038368e-05 3.999987e+00 2.811514e-01 7.141779e-04 7.113960e-04 5.142082e-03 4.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0096p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 1.010000e+02 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+Star is scalarized at rho1= 2.000000e-01
+Star #0: 
+1 0 1 1 2.854336e-09 3.555819e-05 3.999987e+00 3.584378e-01 7.566543e-04 7.542816e-04 3.597083e-03 2.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0101p000 ...
+Done!
+Star #1: 
+1 0 1 1 2.614329e-09 3.773486e-05 3.999987e+00 3.316365e-01 7.360460e-04 7.335857e-04 4.111173e-03 2.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0101p000 ...
+Done!
+Star #2: 
+1 0 1 1 3.473987e-09 3.920885e-05 3.999987e+00 3.105900e-01 7.215660e-04 7.190153e-04 4.537323e-03 3.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0101p000 ...
+Done!
+Star #3: 
+1 0 1 1 3.035325e-09 4.027955e-05 3.999987e+00 2.934895e-01 7.109114e-04 7.082703e-04 4.904957e-03 3.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0101p000 ...
+Done!
+Star #4: 
+1 0 1 1 3.089010e-09 4.110303e-05 3.999987e+00 2.792418e-01 7.028069e-04 7.000766e-04 5.230438e-03 4.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0101p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+Inside findScalarizationShooting. Gonna find the first 5 scalarized stars to get relaxation started.
+beta_st= 1.060000e+02 mass_st= 5.000000e-01
+Inside findRhoBeginShooting.
+Star is scalarized at rho1= 2.000000e-01
+Star #0: 
+1 0 1 1 3.035984e-09 3.676881e-05 3.999987e+00 3.574220e-01 7.412339e-04 7.389316e-04 3.718179e-03 2.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0106p000 ...
+Done!
+Star #1: 
+1 0 1 1 2.714746e-09 3.868972e-05 3.999987e+00 3.301313e-01 7.225493e-04 7.201498e-04 4.213250e-03 2.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0106p000 ...
+Done!
+Star #2: 
+1 0 1 1 3.391248e-09 4.000166e-05 3.999987e+00 3.088223e-01 7.095774e-04 7.070797e-04 4.626592e-03 3.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0106p000 ...
+Done!
+Star #3: 
+1 0 1 1 3.356215e-09 4.096197e-05 3.999987e+00 2.915885e-01 7.001416e-04 6.975470e-04 4.984818e-03 3.500000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0106p000 ...
+Done!
+Star #4: 
+1 0 1 1 3.516656e-09 4.170331e-05 3.999987e+00 2.772857e-01 6.930446e-04 6.903553e-04 5.302991e-03 4.000000e-01 6
+Appending parameters to firstStarsParam_eos_5_beta_0106p000 ...
+Done!
+findScalarizationShooting successfully found the first 5 scalarized stars.
+rho_begin = [18.668200]
+rho_end = [37.336400]
+rho_inter = [9.334100]
+rho_inter2 = [18.668200]
+Calculating TOV solution A in STT...
+0.000000e+00 0.000000e+00 0.000000e+00
+9.334100e-02 1.511207e-04 9.376443e-02
+1.866820e-01 3.870718e-04 1.877665e-01
+2.800230e-01 6.710111e-04 2.819031e-01
+3.733640e-01 9.914233e-04 3.761419e-01
+4.667050e-01 1.342012e-03 4.704652e-01
+5.600460e-01 1.718689e-03 5.648616e-01
+6.533870e-01 2.118544e-03 6.593230e-01
+7.467280e-01 2.539374e-03 7.538431e-01
+8.400690e-01 2.979446e-03 8.484171e-01
+9.334100e-01 3.437351e-03 9.430411e-01
+1.026751e+00 3.911917e-03 1.037712e+00
+1.120092e+00 4.402151e-03 1.132426e+00
+1.213433e+00 4.907199e-03 1.227183e+00
+1.306774e+00 5.426315e-03 1.321978e+00
+1.400115e+00 5.958846e-03 1.416811e+00
+1.493456e+00 6.504206e-03 1.511680e+00
+1.586797e+00 7.061875e-03 1.606584e+00
+1.680138e+00 7.631381e-03 1.701520e+00
+1.773479e+00 8.212297e-03 1.796489e+00
+1.866820e+00 8.804233e-03 1.891489e+00
+1.960161e+00 9.406829e-03 1.986518e+00
+2.053502e+00 1.001976e-02 2.081576e+00
+2.146843e+00 1.064271e-02 2.176663e+00
+2.240184e+00 1.127542e-02 2.271777e+00
+2.333525e+00 1.191760e-02 2.366917e+00
+2.426866e+00 1.256901e-02 2.462083e+00
+2.520207e+00 1.340470e-02 2.557275e+00
+2.613548e+00 1.494995e-02 2.652514e+00
+2.706889e+00 1.660962e-02 2.747809e+00
+2.800230e+00 1.838779e-02 2.843164e+00
+2.893571e+00 2.028854e-02 2.938580e+00
+2.986912e+00 2.231597e-02 3.034059e+00
+3.080253e+00 2.447415e-02 3.129604e+00
+3.173594e+00 2.676717e-02 3.225216e+00
+3.266935e+00 2.919913e-02 3.320898e+00
+3.360276e+00 3.177410e-02 3.416651e+00
+3.453617e+00 3.449617e-02 3.512478e+00
+3.546958e+00 3.736944e-02 3.608380e+00
+3.640299e+00 4.039797e-02 3.704360e+00
+3.733640e+00 4.358587e-02 3.800420e+00
+3.826981e+00 4.693722e-02 3.896561e+00
+3.920322e+00 5.045609e-02 3.992786e+00
+4.013663e+00 5.414659e-02 4.089097e+00
+4.107004e+00 5.801280e-02 4.185496e+00
+4.200345e+00 6.205879e-02 4.281984e+00
+4.293686e+00 6.628866e-02 4.378565e+00
+4.387027e+00 7.070650e-02 4.475240e+00
+4.480368e+00 7.531639e-02 4.572010e+00
+4.573709e+00 8.012241e-02 4.668879e+00
+4.667050e+00 8.512866e-02 4.765848e+00
+4.760391e+00 9.033921e-02 4.862919e+00
+4.853732e+00 9.575816e-02 4.960094e+00
+4.947073e+00 1.013896e-01 5.057375e+00
+5.040414e+00 1.072376e-01 5.154765e+00
+5.133755e+00 1.133062e-01 5.252265e+00
+5.227096e+00 1.195996e-01 5.349877e+00
+5.320437e+00 1.261218e-01 5.447604e+00
+5.413778e+00 1.328770e-01 5.545447e+00
+5.507119e+00 1.398691e-01 5.643409e+00
+5.600460e+00 1.471023e-01 5.741491e+00
+5.693801e+00 1.545807e-01 5.839696e+00
+5.787142e+00 1.623083e-01 5.938025e+00
+5.880483e+00 1.702893e-01 6.036482e+00
+5.973824e+00 1.785277e-01 6.135066e+00
+6.067165e+00 1.870277e-01 6.233782e+00
+6.160506e+00 1.957932e-01 6.332631e+00
+6.253847e+00 2.048284e-01 6.431614e+00
+6.347188e+00 2.141374e-01 6.530734e+00
+6.440529e+00 2.237242e-01 6.629993e+00
+6.533870e+00 2.335930e-01 6.729393e+00
+6.627211e+00 2.437479e-01 6.828936e+00
+6.720552e+00 2.541928e-01 6.928624e+00
+6.813893e+00 2.649320e-01 7.028460e+00
+6.907234e+00 2.759694e-01 7.128444e+00
+7.000575e+00 2.873092e-01 7.228580e+00
+7.093916e+00 2.989555e-01 7.328868e+00
+7.187257e+00 3.109123e-01 7.429312e+00
+7.280598e+00 3.231838e-01 7.529914e+00
+7.373939e+00 3.357740e-01 7.630675e+00
+7.467280e+00 3.486870e-01 7.731597e+00
+7.560621e+00 3.619269e-01 7.832682e+00
+7.653962e+00 3.754977e-01 7.933933e+00
+7.747303e+00 3.894037e-01 8.035352e+00
+7.840644e+00 4.036488e-01 8.136940e+00
+7.933985e+00 4.182371e-01 8.238700e+00
+8.027326e+00 4.331727e-01 8.340634e+00
+8.120667e+00 4.484598e-01 8.442743e+00
+8.214008e+00 4.641024e-01 8.545030e+00
+8.307349e+00 4.801045e-01 8.647497e+00
+8.400690e+00 4.964703e-01 8.750145e+00
+8.494031e+00 5.132039e-01 8.852978e+00
+8.587372e+00 5.303093e-01 8.955996e+00
+8.680713e+00 5.477906e-01 9.059202e+00
+8.774054e+00 5.656520e-01 9.162599e+00
+8.867395e+00 5.838975e-01 9.266187e+00
+8.960736e+00 6.025311e-01 9.369969e+00
+9.054077e+00 6.215570e-01 9.473948e+00
+9.147418e+00 6.409793e-01 9.578125e+00
+9.240759e+00 6.608020e-01 9.682502e+00
+9.334100e+00 6.810292e-01 9.787081e+00
+9.427441e+00 7.016651e-01 9.891865e+00
+9.520782e+00 7.227137e-01 9.996855e+00
+9.614123e+00 7.441790e-01 1.010205e+01
+9.707464e+00 7.660653e-01 1.020746e+01
+9.800805e+00 7.883765e-01 1.031308e+01
+9.894146e+00 8.111167e-01 1.041892e+01
+9.987487e+00 8.342901e-01 1.052497e+01
+1.008083e+01 8.579007e-01 1.063124e+01
+1.017417e+01 8.819526e-01 1.073773e+01
+1.026751e+01 9.064499e-01 1.084445e+01
+1.036085e+01 9.313967e-01 1.095139e+01
+1.045419e+01 9.567971e-01 1.105855e+01
+1.054753e+01 9.826551e-01 1.116595e+01
+1.064087e+01 1.008975e+00 1.127357e+01
+1.073421e+01 1.035760e+00 1.138143e+01
+1.082756e+01 1.063016e+00 1.148953e+01
+1.092090e+01 1.090745e+00 1.159786e+01
+1.101424e+01 1.118953e+00 1.170643e+01
+1.110758e+01 1.147643e+00 1.181524e+01
+1.120092e+01 1.176819e+00 1.192429e+01
+1.129426e+01 1.206485e+00 1.203359e+01
+1.138760e+01 1.236646e+00 1.214313e+01
+1.148094e+01 1.267305e+00 1.225293e+01
+1.157428e+01 1.298467e+00 1.236298e+01
+1.166762e+01 1.330135e+00 1.247328e+01
+1.176097e+01 1.362315e+00 1.258383e+01
+1.185431e+01 1.395009e+00 1.269464e+01
+1.194765e+01 1.428222e+00 1.280572e+01
+1.204099e+01 1.461958e+00 1.291705e+01
+1.213433e+01 1.496221e+00 1.302865e+01
+1.222767e+01 1.531016e+00 1.314051e+01
+1.232101e+01 1.566345e+00 1.325264e+01
+1.241435e+01 1.602215e+00 1.336504e+01
+1.250769e+01 1.638627e+00 1.347771e+01
+1.260103e+01 1.675587e+00 1.359066e+01
+1.269438e+01 1.713099e+00 1.370388e+01
+1.278772e+01 1.751167e+00 1.381738e+01
+1.288106e+01 1.789794e+00 1.393116e+01
+1.297440e+01 1.828985e+00 1.404522e+01
+1.306774e+01 1.868744e+00 1.415957e+01
+1.316108e+01 1.909075e+00 1.427420e+01
+1.325442e+01 1.949983e+00 1.438912e+01
+1.334776e+01 1.991470e+00 1.450433e+01
+1.344110e+01 2.033542e+00 1.461983e+01
+1.353444e+01 2.076203e+00 1.473562e+01
+1.362779e+01 2.119456e+00 1.485172e+01
+1.372113e+01 2.163305e+00 1.496811e+01
+1.381447e+01 2.207755e+00 1.508480e+01
+1.390781e+01 2.252810e+00 1.520179e+01
+1.400115e+01 2.298474e+00 1.531909e+01
+1.409449e+01 2.344750e+00 1.543669e+01
+1.418783e+01 2.391644e+00 1.555460e+01
+1.428117e+01 2.439159e+00 1.567283e+01
+1.437451e+01 2.487299e+00 1.579136e+01
+1.446786e+01 2.536068e+00 1.591021e+01
+1.456120e+01 2.585470e+00 1.602938e+01
+1.465454e+01 2.635510e+00 1.614886e+01
+1.474788e+01 2.686192e+00 1.626867e+01
+1.484122e+01 2.737519e+00 1.638880e+01
+1.493456e+01 2.789496e+00 1.650925e+01
+1.502790e+01 2.842126e+00 1.663004e+01
+1.512124e+01 2.895415e+00 1.675115e+01
+1.521458e+01 2.949365e+00 1.687259e+01
+1.530792e+01 3.003982e+00 1.699436e+01
+1.540126e+01 3.059269e+00 1.711647e+01
+1.549461e+01 3.115229e+00 1.723892e+01
+1.558795e+01 3.171869e+00 1.736170e+01
+1.568129e+01 3.229190e+00 1.748483e+01
+1.577463e+01 3.287198e+00 1.760830e+01
+1.586797e+01 3.345897e+00 1.773211e+01
+1.596131e+01 3.405290e+00 1.785627e+01
+1.605465e+01 3.465382e+00 1.798079e+01
+1.614799e+01 3.526177e+00 1.810565e+01
+1.624133e+01 3.587678e+00 1.823087e+01
+1.633468e+01 3.649891e+00 1.835644e+01
+1.642802e+01 3.712819e+00 1.848237e+01
+1.652136e+01 3.776466e+00 1.860866e+01
+1.661470e+01 3.840836e+00 1.873531e+01
+1.670804e+01 3.905934e+00 1.886232e+01
+1.680138e+01 3.971763e+00 1.898970e+01
+1.689472e+01 4.038327e+00 1.911745e+01
+1.698806e+01 4.105631e+00 1.924557e+01
+1.708140e+01 4.173679e+00 1.937406e+01
+1.717474e+01 4.242474e+00 1.950292e+01
+1.726808e+01 4.312022e+00 1.963216e+01
+1.736143e+01 4.382325e+00 1.976178e+01
+1.745477e+01 4.453389e+00 1.989177e+01
+1.754811e+01 4.525216e+00 2.002215e+01
+1.764145e+01 4.597812e+00 2.015292e+01
+1.773479e+01 4.671180e+00 2.028407e+01
+1.782813e+01 4.745324e+00 2.041560e+01
+1.792147e+01 4.820249e+00 2.054753e+01
+1.801481e+01 4.895958e+00 2.067985e+01
+1.810815e+01 4.972456e+00 2.081257e+01
+1.820150e+01 5.049747e+00 2.094568e+01
+1.829484e+01 5.127834e+00 2.107919e+01
+1.838818e+01 5.206723e+00 2.121310e+01
+1.848152e+01 5.286416e+00 2.134741e+01
+1.857486e+01 5.366918e+00 2.148213e+01
+2.82372650e-03 1.75567064e-04 
+2.83784513e-03 1.73694059e-04 
+2.85196377e-03 1.71775982e-04 
+2.86608240e-03 1.69812558e-04 
+2.88020103e-03 1.67803515e-04 
+2.89431966e-03 1.65748580e-04 
+2.90843830e-03 1.63647479e-04 
+2.92255693e-03 1.61499941e-04 
+2.93667556e-03 1.59305695e-04 
+2.95079419e-03 1.57064472e-04 
+2.96491283e-03 1.54776002e-04 
+2.97903146e-03 1.52440016e-04 
+2.99315009e-03 1.50056247e-04 
+3.00726872e-03 1.47624429e-04 
+3.02138736e-03 1.45144295e-04 
+3.03550599e-03 1.42615582e-04 
+3.04962462e-03 1.40038024e-04 
+3.06374325e-03 1.37411360e-04 
+3.07786189e-03 1.34735328e-04 
+3.09198052e-03 1.32009667e-04 
+3.10609915e-03 1.29234117e-04 
+3.12021778e-03 1.26408421e-04 
+3.13433642e-03 1.23532320e-04 
+3.14845505e-03 1.20605560e-04 
+3.16257368e-03 1.17627884e-04 
+3.17669231e-03 1.14599040e-04 
+3.19081095e-03 1.11518776e-04 
+3.20492958e-03 1.08386839e-04 
+3.21904821e-03 1.05202981e-04 
+3.23316684e-03 1.01966954e-04 
+3.24728548e-03 9.86785093e-05 
+3.26140411e-03 9.53374029e-05 
+3.27552274e-03 9.19433902e-05 
+3.28964137e-03 8.84962289e-05 
+3.30376001e-03 8.49956777e-05 
+3.31787864e-03 8.14414972e-05 
+3.33199727e-03 7.78334495e-05 
+3.34611590e-03 7.41712981e-05 
+3.36023454e-03 7.04548083e-05 
+3.37435317e-03 6.66837471e-05 
+3.38847180e-03 6.28578828e-05 
+3.40259043e-03 5.89769859e-05 
+3.41670907e-03 5.50408284e-05 
+3.43082770e-03 5.10491839e-05 
+3.44494633e-03 4.70018281e-05 
+3.45906496e-03 4.28985384e-05 
+3.47318360e-03 3.87390939e-05 
+3.48730223e-03 3.45232757e-05 
+3.50142086e-03 3.02508669e-05 
+3.51553949e-03 2.59216524e-05 
+3.52965813e-03 2.15354189e-05 
+3.54377676e-03 1.70919555e-05 
+3.55789539e-03 1.25910529e-05 
+3.57201402e-03 8.03250399e-06 
+3.58613266e-03 3.41610382e-06 
+3.60025129e-03 -1.25835061e-06 
+3.61436992e-03 -5.99106011e-06 
+3.62848855e-03 -1.07822234e-05 
+3.64260719e-03 -1.56320369e-05 
+3.65672582e-03 -2.05406951e-05 
+3.67084445e-03 -2.55083900e-05 
+3.68496308e-03 -3.05353114e-05 
+3.69908172e-03 -3.56216470e-05 
+3.71320035e-03 -4.07675820e-05 
+3.72731898e-03 -4.59732993e-05 
+3.74143761e-03 -5.12389797e-05 
+3.75555625e-03 -5.65648012e-05 
+3.76967488e-03 -6.19509398e-05 
+3.78379351e-03 -6.73975688e-05 
+3.79791214e-03 -7.29048592e-05 
+3.81203078e-03 -7.84729794e-05 
+3.82614941e-03 -8.41020955e-05 
+3.84026804e-03 -8.97923709e-05 
+3.85438667e-03 -9.55439665e-05 
+3.86850531e-03 -1.01357041e-04 
+3.88262394e-03 -1.07231749e-04 
+3.89674257e-03 -1.13168245e-04 
+3.91086120e-03 -1.19166679e-04 
+3.92497984e-03 -1.25227198e-04 
+3.93909847e-03 -1.31349949e-04 
+3.95321710e-03 -1.37535072e-04 
+3.96733573e-03 -1.43782709e-04 
+3.98145437e-03 -1.50092995e-04 
+3.99557300e-03 -1.56466066e-04 
+4.00969163e-03 -1.62902052e-04 
+4.02381026e-03 -1.69401082e-04 
+4.03792889e-03 -1.75963282e-04 
+4.05204753e-03 -1.82588775e-04 
+4.06616616e-03 -1.89277680e-04 
+4.08028479e-03 -1.96030114e-04 
+4.09440343e-03 -2.02846191e-04 
+4.10852206e-03 -2.09726022e-04 
+4.12264069e-03 -2.16669717e-04 
+4.13675932e-03 -2.23677380e-04 
+4.15087795e-03 -2.30749114e-04 
+4.16499659e-03 -2.37885018e-04 
+4.17911522e-03 -2.45085189e-04 
+4.19323385e-03 -2.52349718e-04 
+4.20735249e-03 -2.59678698e-04 
+4.22147112e-03 -2.67072213e-04 
+4.23558975e-03 -2.74530349e-04 
+4.24970838e-03 -2.82053187e-04 
+4.26382701e-03 -2.89640803e-04 
+4.27794565e-03 -2.97293272e-04 
+4.29206428e-03 -3.05010666e-04 
+4.30618291e-03 -3.12793052e-04 
+4.32030155e-03 -3.20640496e-04 
+4.33442018e-03 -3.28553059e-04 
+4.34853881e-03 -3.36530800e-04 
+4.36265744e-03 -3.44573774e-04 
+4.37677607e-03 -3.52682032e-04 
+4.39089471e-03 -3.60855623e-04 
+4.40501334e-03 -3.69094593e-04 
+4.41913197e-03 -3.77398983e-04 
+4.43325061e-03 -3.85768833e-04 
+4.44736924e-03 -3.94204176e-04 
+4.46148787e-03 -4.02705047e-04 
+4.47560650e-03 -4.11271472e-04 
+4.48972513e-03 -4.19903478e-04 
+4.50384377e-03 -4.28601086e-04 
+4.51796240e-03 -4.37364314e-04 
+4.53208103e-03 -4.46193178e-04 
+4.54619967e-03 -4.55087689e-04 
+4.56031830e-03 -4.64047855e-04 
+4.57443693e-03 -4.73073681e-04 
+4.58855556e-03 -4.82165168e-04 
+4.60267419e-03 -4.91322314e-04 
+4.61679283e-03 -5.00545113e-04 
+4.63091146e-03 -5.09833556e-04 
+4.64503009e-03 -5.19187630e-04 
+4.65914873e-03 -5.28607318e-04 
+4.67326736e-03 -5.38092602e-04 
+4.68738599e-03 -5.47643458e-04 
+4.70150462e-03 -5.57259859e-04 
+4.71562326e-03 -5.66941774e-04 
+4.72974189e-03 -5.76689170e-04 
+4.74386052e-03 -5.86502009e-04 
+4.75797915e-03 -5.96380247e-04 
+4.77209779e-03 -6.06323843e-04 
+4.78621642e-03 -6.16332749e-04 
+4.80033505e-03 -6.26406912e-04 
+4.81445368e-03 -6.36546276e-04 
+4.82857231e-03 -6.46750784e-04 
+4.84269095e-03 -6.57020372e-04 
+4.85680958e-03 -6.67354974e-04 
+4.87092821e-03 -6.77754520e-04 
+4.88504685e-03 -6.88218937e-04 
+4.89916548e-03 -6.98748148e-04 
+4.91328411e-03 -7.09342072e-04 
+4.92740274e-03 -7.20000624e-04 
+4.94152138e-03 -7.30723717e-04 
+4.95564001e-03 -7.41511259e-04 
+4.96975864e-03 -7.52363155e-04 
+4.98387727e-03 -7.63279305e-04 
+4.99799591e-03 -7.74259608e-04 
+5.01211454e-03 -7.85303957e-04 
+5.02623317e-03 -7.96412242e-04 
+5.04035180e-03 -8.07584349e-04 
+5.05447043e-03 -8.18820162e-04 
+5.06858907e-03 -8.30119559e-04 
+5.08270770e-03 -8.41482416e-04 
+5.09682633e-03 -8.52908605e-04 
+5.11094497e-03 -8.64397994e-04 
+5.12506360e-03 -8.75950448e-04 
+5.13918223e-03 -8.87565827e-04 
+5.15330086e-03 -8.99243988e-04 
+5.16741950e-03 -9.10984785e-04 
+5.18153813e-03 -9.22788069e-04 
+5.19565676e-03 -9.34653684e-04 
+5.20977539e-03 -9.46581474e-04 
+5.22389403e-03 -9.58571277e-04 
+5.23801266e-03 -9.70622929e-04 
+5.25213129e-03 -9.82736262e-04 
+5.26624992e-03 -9.94911103e-04 
+5.28036855e-03 -1.00714728e-03 
+5.29448719e-03 -1.01944460e-03 
+5.30860582e-03 -1.03180290e-03 
+5.32272445e-03 -1.04422198e-03 
+5.33684309e-03 -1.05670165e-03 
+5.35096172e-03 -1.06924172e-03 
+5.36508035e-03 -1.08184200e-03 
+5.37919898e-03 -1.09450227e-03 
+5.39331762e-03 -1.10722234e-03 
+5.40743625e-03 -1.12000199e-03 
+5.42155488e-03 -1.13284101e-03 
+5.43567351e-03 -1.14573920e-03 
+5.44979215e-03 -1.15869633e-03 
+5.46391078e-03 -1.17171217e-03 
+5.47802941e-03 -1.18478650e-03 
+5.49214804e-03 -1.19791910e-03 
+5.50626667e-03 -1.21110972e-03 
+5.52038531e-03 -1.22435814e-03 
+5.53450394e-03 -1.23766410e-03 
+5.54862257e-03 -1.25102737e-03 
+5.56274121e-03 -1.26444770e-03 
+5.57685984e-03 -1.27792483e-03 
+5.59097847e-03 -1.29145852e-03 
+5.60509710e-03 -1.30504850e-03 
+5.61921574e-03 -1.31869451e-03 
+5.63333437e-03 -1.33239628e-03 
+5.64745300e-03 -1.34615356e-03 
+5.66157163e-03 -1.35996605e-03 
+5.67569026e-03 -1.37383350e-03 
+5.68980890e-03 -1.38775561e-03 
+5.70392753e-03 -1.40173211e-03 
+5.71804616e-03 -1.41576271e-03 
+5.73216479e-03 -1.42984712e-03 
+5.74628343e-03 -1.44398504e-03 
+5.76040206e-03 -1.45817619e-03 
+5.77452069e-03 -1.47242025e-03 
+5.78863933e-03 -1.48671693e-03 
+5.80275796e-03 -1.50106592e-03 
+5.81687659e-03 -1.51546691e-03 
+5.83099522e-03 -1.52991958e-03 
+5.84511386e-03 -1.54442362e-03 
+5.85923249e-03 -1.55897870e-03 
+5.87335112e-03 -1.57358451e-03 
+5.88746975e-03 -1.58824071e-03 
+5.90158838e-03 -1.60294698e-03 
+5.91570702e-03 -1.61770298e-03 
+5.92982565e-03 -1.63250837e-03 
+5.94394428e-03 -1.64736282e-03 
+5.95806292e-03 -1.66226597e-03 
+5.97218155e-03 -1.67721749e-03 
+5.98630018e-03 -1.69221702e-03 
+6.00041881e-03 -1.70726420e-03 
+6.01453744e-03 -1.72235869e-03 
+6.02865608e-03 -1.73750011e-03 
+6.04277471e-03 -1.75268812e-03 
+6.05689334e-03 -1.76792232e-03 
+6.07101198e-03 -1.78320237e-03 
+6.08513061e-03 -1.79852788e-03 
+6.09924924e-03 -1.81389849e-03 
+6.11336787e-03 -1.82931380e-03 
+6.12748650e-03 -1.84477345e-03 
+6.14160514e-03 -1.86027703e-03 
+6.15572377e-03 -1.87582417e-03 
+6.16984240e-03 -1.89141447e-03 
+6.18396104e-03 -1.90704754e-03 
+6.19807967e-03 -1.92272297e-03 
+6.21219830e-03 -1.93844037e-03 
+6.22631693e-03 -1.95419933e-03 
+6.24043557e-03 -1.96999945e-03 
+6.25455420e-03 -1.98584031e-03 
+6.26867283e-03 -2.00172150e-03 
+6.28279146e-03 -2.01764260e-03 
+6.29691010e-03 -2.03360320e-03 
+6.31102873e-03 -2.04960287e-03 
+6.32514736e-03 -2.06564118e-03 
+6.33926599e-03 -2.08171771e-03 
+6.35338462e-03 -2.09783203e-03 
+6.36750326e-03 -2.11398369e-03 
+6.38162189e-03 -2.13017227e-03 
+6.39574052e-03 -2.14639732e-03 
+6.40985916e-03 -2.16265840e-03 
+6.42397779e-03 -2.17895506e-03 
+6.43809642e-03 -2.19528685e-03 
+6.45221505e-03 -2.21165333e-03 
+6.46633369e-03 -2.22805403e-03 
+6.48045232e-03 -2.24448850e-03 
+6.49457095e-03 -2.26095628e-03 
+6.50868958e-03 -2.27745691e-03 
+6.52280822e-03 -2.29398991e-03 
+6.53692685e-03 -2.31055482e-03 
+6.55104548e-03 -2.32715117e-03 
+6.56516411e-03 -2.34377848e-03 
+6.57928274e-03 -2.36043627e-03 
+6.59340138e-03 -2.37712408e-03 
+6.60752001e-03 -2.39384140e-03 
+6.62163864e-03 -2.41058776e-03 
+6.63575728e-03 -2.42736267e-03 
+6.64987591e-03 -2.44416564e-03 
+6.66399454e-03 -2.46099618e-03 
+6.67811317e-03 -2.47785378e-03 
+6.69223181e-03 -2.49473795e-03 
+6.70635044e-03 -2.51164819e-03 
+6.72046907e-03 -2.52858399e-03 
+6.73458770e-03 -2.54554485e-03 
+6.74870634e-03 -2.56253026e-03 
+6.76282497e-03 -2.57953970e-03 
+6.77694360e-03 -2.59657267e-03 
+6.79106223e-03 -2.61362864e-03 
+6.80518087e-03 -2.63070709e-03 
+6.81929950e-03 -2.64780751e-03 
+6.83341813e-03 -2.66492936e-03 
+6.84753676e-03 -2.68207212e-03 
+6.86165540e-03 -2.69923525e-03 
+6.87577403e-03 -2.71641823e-03 
+6.88989266e-03 -2.73362053e-03 
+6.90401129e-03 -2.75084161e-03 
+6.91812993e-03 -2.76808093e-03 
+6.93224856e-03 -2.78533794e-03 
+6.94636719e-03 -2.80261210e-03 
+6.96048582e-03 -2.81990287e-03 
+6.97460446e-03 -2.83720970e-03 
+6.98872309e-03 -2.85453203e-03 
+7.00284172e-03 -2.87186932e-03 
+7.01696035e-03 -2.88922100e-03 
+7.03107898e-03 -2.90658652e-03 
+7.04519762e-03 -2.92396532e-03 
+7.05931625e-03 -2.94135683e-03 
+7.07343488e-03 -2.95876049e-03 
+7.08755352e-03 -2.97617573e-03 
+7.10167215e-03 -2.99360199e-03 
+7.11579078e-03 -3.01103869e-03 
+7.12990941e-03 -3.02848525e-03 
+7.14402805e-03 -3.04594110e-03 
+7.15814668e-03 -3.06340567e-03 
+7.17226531e-03 -3.08087836e-03 
+7.18638394e-03 -3.09835861e-03 
+7.20050257e-03 -3.11584581e-03 
+7.21462121e-03 -3.13333940e-03 
+7.22873984e-03 -3.15083877e-03 
+7.24285847e-03 -3.16834333e-03 
+7.25697711e-03 -3.18585250e-03 
+7.27109574e-03 -3.20336568e-03 
+7.28521437e-03 -3.22088226e-03 
+7.29933300e-03 -3.23840166e-03 
+7.31345163e-03 -3.25592326e-03 
+7.32757027e-03 -3.27344646e-03 
+7.34168890e-03 -3.29097067e-03 
+7.35580753e-03 -3.30849527e-03 
+7.36992617e-03 -3.32601965e-03 
+7.38404480e-03 -3.34354319e-03 
+7.39816343e-03 -3.36106530e-03 
+7.41228206e-03 -3.37858534e-03 
+7.42640069e-03 -3.39610271e-03 
+7.44051933e-03 -3.41361679e-03 
+7.45463796e-03 -3.43112695e-03 
+7.46875659e-03 -3.44863256e-03 
+7.48287523e-03 -3.46613302e-03 
+7.49699386e-03 -3.48362768e-03 
+7.51111249e-03 -3.50111592e-03 
+7.52523112e-03 -3.51859711e-03 
+7.53934975e-03 -3.53607062e-03 
+7.55346839e-03 -3.55353582e-03 
+7.56758702e-03 -3.57099206e-03 
+7.58170565e-03 -3.58843871e-03 
+7.59582429e-03 -3.60587514e-03 
+7.60994292e-03 -3.62330069e-03 
+7.62406155e-03 -3.64071474e-03 
+7.63818018e-03 -3.65811662e-03 
+7.65229882e-03 -3.67550571e-03 
+7.66641745e-03 -3.69288134e-03 
+7.68053608e-03 -3.71024288e-03 
+7.69465471e-03 -3.72758967e-03 
+7.70877335e-03 -3.74492105e-03 
+7.72289198e-03 -3.76223638e-03 
+7.73701061e-03 -3.77953499e-03 
+7.75112924e-03 -3.79681624e-03 
+7.76524788e-03 -3.81407946e-03 
+7.77936651e-03 -3.83132399e-03 
+7.79348514e-03 -3.84854917e-03 
+7.80760377e-03 -3.86575434e-03 
+7.82172241e-03 -3.88293882e-03 
+7.83584104e-03 -3.90010197e-03 
+7.84995967e-03 -3.91724310e-03 
+7.86407830e-03 -3.93436155e-03 
+7.87819694e-03 -3.95145665e-03 
+7.89231557e-03 -3.96852773e-03 
+7.90643420e-03 -3.98557411e-03 
+7.92055283e-03 -4.00259512e-03 
+7.93467147e-03 -4.01959009e-03 
+7.94879010e-03 -4.03655833e-03 
+7.96290873e-03 -4.05349916e-03 
+7.97702736e-03 -4.07041192e-03 
+7.99114600e-03 -4.08729591e-03 
+8.00526463e-03 -4.10415045e-03 
+8.01938326e-03 -4.12097487e-03 
+8.03350189e-03 -4.13776847e-03 
+8.04762053e-03 -4.15453057e-03 
+8.06173916e-03 -4.17126049e-03 
+8.07585779e-03 -4.18795753e-03 
+8.08997642e-03 -4.20462100e-03 
+8.10409505e-03 -4.22125022e-03 
+8.11821369e-03 -4.23784450e-03 
+8.13233232e-03 -4.25440313e-03 
+8.14645095e-03 -4.27092543e-03 
+8.16056958e-03 -4.28741071e-03 
+8.17468822e-03 -4.30385826e-03 
+8.18880685e-03 -4.32026739e-03 
+8.20292548e-03 -4.33663740e-03 
+8.21704412e-03 -4.35296760e-03 
+8.23116275e-03 -4.36925728e-03 
+8.24528138e-03 -4.38550574e-03 
+8.25940001e-03 -4.40171229e-03 
+8.27351865e-03 -4.41787622e-03 
+8.28763728e-03 -4.43399683e-03 
+8.30175591e-03 -4.45007342e-03 
+8.31587454e-03 -4.46610527e-03 
+8.32999317e-03 -4.48209169e-03 
+8.34411181e-03 -4.49803197e-03 
+8.35823044e-03 -4.51392541e-03 
+8.37234907e-03 -4.52977129e-03 
+8.38646771e-03 -4.54556890e-03 
+8.40058634e-03 -4.56131755e-03 
+8.41470497e-03 -4.57701651e-03 
+8.42882360e-03 -4.59266509e-03 
+8.44294224e-03 -4.60826256e-03 
+8.45706087e-03 -4.62380822e-03 
+ 5.08270770e-03  6.21219830e-03 -8.41482416e-04  -1.93844037e-03 1.03290841e-314 2.00000000e+00 
+ 5.08270770e-03  1.24243966e-02 -8.41482416e-04  -4.71364086e-03 2.32937828e-310 2.00000000e+00 
+ 5.08270770e-03  2.48487932e-02 -8.41482416e-04  1.48204536e-02 3.95252517e-323 2.00000000e+00 
+ 5.08270770e-03  1.49657505e-02 -8.41482416e-04  3.76910846e-04 4.10074486e-322 2.00000000e+00 
+ 1.00242291e-02  1.49657505e-02 -5.86221773e-03  3.76910846e-04 2.09920726e-314 2.00000000e+00 
+ 1.24949898e-02  1.49657505e-02 -4.61662014e-03  3.76910846e-04 2.32937714e-310 2.00000000e+00 
+ 1.37303701e-02  1.49657505e-02 -2.44716470e-03  3.76910846e-04 3.00232136e-315 2.00000000e+00 
+ 1.43480603e-02  1.49657505e-02 -1.09579476e-03  3.76910846e-04 6.95272136e-310 2.00000000e+00 
+ 1.46569054e-02  1.49657505e-02 -3.72179723e-04  3.76910846e-04 2.32937828e-310 2.00000000e+00 
+ 1.48113279e-02  1.49657505e-02 -5.33266295e-07  3.76910846e-04 2.32937828e-310 2.00000000e+00 
+ 1.48113279e-02  1.48885392e-02 -5.33266295e-07  1.87498638e-04 6.95272136e-310 2.00000000e+00 
+ 1.48113279e-02  1.48499335e-02 -5.33266295e-07  9.33058989e-05 6.95272136e-310 2.00000000e+00 
+ 1.48113279e-02  1.48306307e-02 -5.33266295e-07  4.63415782e-05 6.95271921e-310 2.00000000e+00 
+ 1.48113279e-02  1.48209793e-02 -5.33266295e-07  2.28929031e-05 2.32931478e-310 2.00000000e+00 
+ 1.48113279e-02  1.48161536e-02 -5.33266295e-07  1.11769967e-05 0.00000000e+00 2.00000000e+00 
+ 1.48113279e-02  1.48137408e-02 -5.33266295e-07  5.32115872e-06 2.32937716e-310 2.00000000e+00 
+ 1.48113279e-02  1.48125343e-02 -5.33266295e-07  2.39376946e-06 -nan 2.00000000e+00 
+ 1.48113279e-02  1.48119311e-02 -5.33266295e-07  9.30207379e-07 2.32931478e-310 2.00000000e+00 
+ 1.48113279e-02  1.48116295e-02 -5.33266295e-07  1.98459489e-07 0.00000000e+00 2.00000000e+00 
+ 1.48114787e-02  1.48116295e-02 -1.67406166e-07  1.98459489e-07 0.00000000e+00 2.00000000e+00 
+ 1.48114787e-02  1.48115541e-02 -1.67406166e-07  1.55259703e-08 1.93101617e-312 2.00000000e+00 
+ 1.48115164e-02  1.48115541e-02 -7.59402707e-08  1.55259703e-08 6.95272136e-310 2.00000000e+00 
+ 1.48115353e-02  1.48115541e-02 -3.02071933e-08  1.55259703e-08 0.00000000e+00 2.00000000e+00 
+ 1.48115447e-02  1.48115541e-02 -7.34062220e-09  1.55259703e-08 0.00000000e+00 2.00000000e+00 
+1.79103567e-02  1.48115494e-02 1.86682000e+01 23 
+NmatchNum =1.800000e+00 
+Nmatch=144000  mass_s=1.791036e-02 
+rmatch = 3.599987e+00 
+rhoC =1.866820e+01 
+phiAB = 1.518777E-04 8.313358E-06 
+phi01 = 2.121996E-314 0.000000E+00 
+1.791036e-02  1.481155e-02 1.866820e+01 2.209725e-02 
+bl2ks_stretch_rstart_frac = [0.870000]
+bl2ks_stretch_rstretch_frac = [0.020000]
+use_punc_bh = [0]
+alpha_stretched_ks_bh = [1.000000]
+is_kerr = [0]
+psi_amp = [0.000000]
+beta_amp_x = [0.000000]
+beta_amp_y = [0.000000]
+beta_amp_z = [0.000000]
+background_bh = [0]
+calc_ricci = [0]
+calc_IndependentResidual = [0]
+diagnostic_level = [12]
+===================================================================
+
+Using id_method=0 (evolution) to determine initial hierarchy
+
+generate_id: reset initial data ... solving elliptics
+
+
+MG L = 1 - 3, MG Lf=4, tl=2 ...
+   (L4(0):2.26536490e+00)
+   (L4(1):9.48763241e-01)
+   (L4(2):3.90269059e-01)
+   L4(3):3.90269059e-01
+      (L3(0):7.96660153e-02)
+      (L3(1):1.05072783e-02)
+      (L3(2):3.19071766e-03)
+      L3(3):3.19071766e-03
+         (L2(0):1.70402506e-03)
+         (L2(1):1.24064687e-03)
+         (L2(2):8.93314884e-04)
+         L2(3):8.93314884e-04
+            (L1(0):5.58241445e-04)
+            (L1(1):3.11641306e-04)
+            (L1(2):1.23613751e-04)
+            L1(3):1.23613751e-04
+            (L1(0):4.90320049e-05)
+            (L1(1):1.94487885e-05)
+            (L1(2):7.71445889e-06)
+            L1(10):1.19177957e-08
+         (L2(0):5.42582815e-04)
+         (L2(1):2.50044639e-04)
+         (L2(2):1.64608854e-04)
+         L2(3):1.64608854e-04
+      (L3(0):2.18188956e-03)
+      (L3(1):1.06365211e-03)
+      (L3(2):6.99033064e-04)
+      L3(3):6.99033064e-04
+   (L4(0):1.27812621e-01)
+   (L4(1):5.46574486e-02)
+   (L4(2):3.43809072e-02)
+   L4(3):1.83731992e-02
+iter 1		res(Lf)=1.83731992e-02
+
+WARNING ... failed to solve elliptics to within 1.00000000e-12 in 1 iterations; res=1.83731992e-02
+
+generate id: assuming user has initialized past level info in app_t0_cnst_data_f()
+(only called if there are initial elliptics to solve), or user will intialize
+past level info during first evolution step
+===============================================================================
+AMR hierarchy statistics ... node 0
+
+Number of levels: 3
+74 (of 154) grid functions allocated
+
+Level 1:
+   1 grid(s) using 0.431568 MB
+Level 2:
+   1 grid(s) using 2.908496 MB
+Level 3:
+   1 grid(s) using 2.908496 MB
+
+ Total memory on node 0: 6.248560 MB
+
+===============================================================================
+PAMR_get_gfn: error ... variable <> does not exist
+
+Evolution complete
+
