@@ -1,0 +1,1 @@
+a jupyter notebook for checking single solutions
