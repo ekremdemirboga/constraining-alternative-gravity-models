@@ -1,0 +1,2 @@
+beta   |   likelihood  |
+0.0 0.0
